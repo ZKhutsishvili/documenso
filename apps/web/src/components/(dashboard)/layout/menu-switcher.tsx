@@ -17,7 +17,7 @@ import { isAdmin } from '@documenso/lib/next-auth/guards/is-admin';
 import type { GetTeamsResponse } from '@documenso/lib/server-only/team/get-teams';
 import { extractInitials } from '@documenso/lib/utils/recipient-formatter';
 import { canExecuteTeamAction } from '@documenso/lib/utils/teams';
-import type { User } from '@documenso/prisma/client';
+import { type User } from '@documenso/prisma/client';
 import { trpc } from '@documenso/trpc/react';
 import { LanguageSwitcherDialog } from '@documenso/ui/components/common/language-switcher-dialog';
 import { cn } from '@documenso/ui/lib/utils';
@@ -42,6 +42,8 @@ export type MenuSwitcherProps = {
 export const MenuSwitcher = ({ user, teams: initialTeamsData }: MenuSwitcherProps) => {
   const { _ } = useLingui();
 
+  const { data: haveTeamSubscription } = trpc.profile.canUserHaveTeams.useQuery();
+
   const pathname = usePathname();
 
   const [languageSwitcherOpen, setLanguageSwitcherOpen] = useState(false);
@@ -52,7 +54,10 @@ export const MenuSwitcher = ({ user, teams: initialTeamsData }: MenuSwitcherProp
     initialData: initialTeamsData,
   });
 
-  const teams = teamsQueryResult && teamsQueryResult.length > 0 ? teamsQueryResult : null;
+  const teams =
+    haveTeamSubscription && teamsQueryResult && teamsQueryResult.length > 0
+      ? teamsQueryResult
+      : null;
 
   const isPathTeamUrl = (teamUrl: string) => {
     if (!pathname || !pathname.startsWith(`/t/`)) {
@@ -243,15 +248,19 @@ export const MenuSwitcher = ({ user, teams: initialTeamsData }: MenuSwitcherProp
             </div>
           </>
         ) : (
-          <DropdownMenuItem className="text-muted-foreground px-4 py-2" asChild>
-            <Link
-              href="/settings/teams?action=add-team"
-              className="flex items-center justify-between"
-            >
-              <Trans>Create team</Trans>
-              <Plus className="ml-2 h-4 w-4" />
-            </Link>
-          </DropdownMenuItem>
+          <>
+            {haveTeamSubscription && (
+              <DropdownMenuItem className="text-muted-foreground px-4 py-2" asChild>
+                <Link
+                  href="/settings/teams?action=add-team"
+                  className="flex items-center justify-between"
+                >
+                  <Trans>Create team</Trans>
+                  <Plus className="ml-2 h-4 w-4" />
+                </Link>
+              </DropdownMenuItem>
+            )}
+          </>
         )}
 
         <DropdownMenuSeparator />

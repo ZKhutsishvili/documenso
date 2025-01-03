@@ -1,0 +1,601 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2024-07-24 13:01+1000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: ka\n"
+"Project-Id-Version: documenso-app\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2024-11-05 09:34\n"
+"Last-Translator: \n"
+"Language-Team: Georgian\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: documenso-app\n"
+"X-Crowdin-Project-ID: 694691\n"
+"X-Crowdin-Language: ka\n"
+"X-Crowdin-File: marketing.po\n"
+"X-Crowdin-File-ID: 6\n"
+
+#: apps/marketing/src/components/(marketing)/pricing-table.tsx:100
+msgid "5 standard documents per month"
+msgstr "5 სტანდარტული დოკუმენტი თვეში"
+
+#: apps/marketing/src/components/(marketing)/pricing-table.tsx:198
+msgid "5 Users Included"
+msgstr "5 მომხმარებელი ჩართულია"
+
+#: apps/marketing/src/components/(marketing)/faster-smarter-beautiful-bento.tsx:34
+msgid "A 10x better signing experience."
+msgstr "10-ჯერ უკეთესი ხელმოწერის გამოცდილება"
+
+#: apps/marketing/src/app/(marketing)/singleplayer/client.tsx:51
+msgid "Add document"
+msgstr "დოკუმენტის დამატება"
+
+#: apps/marketing/src/components/(marketing)/pricing-table.tsx:201
+msgid "Add More Users for {0}"
+msgstr "დაამატეთ მეტი მომხმარებელი {0}-სთვის"
+
+#: apps/marketing/src/app/(marketing)/open/page.tsx:164
+msgid "All our metrics, finances, and learnings are public. We believe in transparency and want to share our journey with you. You can read more about why here: <0>Announcing Open Metrics</0>"
+msgstr "ჩვენი ყველა მეტრიკა, ფინანსები და სწავლება საჯაროა. ჩვენ გვჯერა გამჭვირვალობის და გვსურს გაგიზიაროთ ჩვენი მოგზაურობა. მეტი ინფორმაცია შეგიძლიათ წაიკითხოთ აქ: <0>ღია მეტრიკების გამოცხადება</0>"
+
+#: apps/marketing/src/app/(marketing)/open/funding-raised.tsx:58
+#: apps/marketing/src/app/(marketing)/open/funding-raised.tsx:65
+msgid "Amount Raised"
+msgstr "მოზიდული თანხა"
+
+#: apps/marketing/src/components/(marketing)/pricing-table.tsx:145
+#: apps/marketing/src/components/(marketing)/pricing-table.tsx:189
+msgid "API Access"
+msgstr "API წვდომა"
+
+#: apps/marketing/src/components/(marketing)/faster-smarter-beautiful-bento.tsx:67
+msgid "Beautiful."
+msgstr "ლამაზი."
+
+#: apps/marketing/src/components/(marketing)/faster-smarter-beautiful-bento.tsx:69
+msgid "Because signing should be celebrated. That's why we care about the smallest detail in our product."
+msgstr "რადგან ხელმოწერა უნდა აღინიშნოს. სწორედ ამიტომ ვზრუნავთ ჩვენს პროდუქტში ყველაზე მცირე დეტალზეც კი."
+
+#: apps/marketing/src/components/(marketing)/footer.tsx:35
+#: apps/marketing/src/components/(marketing)/header.tsx:57
+#: apps/marketing/src/components/(marketing)/mobile-navigation.tsx:36
+msgid "Blog"
+msgstr "ბლოგი"
+
+#: apps/marketing/src/components/(marketing)/open-build-template-bento.tsx:64
+msgid "Build on top."
+msgstr "აშენეთ ზემოდან."
+
+#: apps/marketing/src/app/(marketing)/pricing/page.tsx:163
+msgid "Can I use Documenso commercially?"
+msgstr "შემიძლია Documenso-ს კომერციული გამოყენება?"
+
+#: apps/marketing/src/components/(marketing)/footer.tsx:42
+msgid "Careers"
+msgstr "კარიერა"
+
+#: apps/marketing/src/components/(marketing)/footer.tsx:36
+msgid "Changelog"
+msgstr "ცვლილებების ჟურნალი"
+
+#: apps/marketing/src/components/(marketing)/open-build-template-bento.tsx:85
+msgid "Choose a template from the community app store. Or submit your own template for others to use."
+msgstr "აირჩიეთ შაბლონი საზოგადოების აპლიკაციების მაღაზიიდან. ან წარადგინეთ საკუთარი შაბლონი სხვების გამოსაყენებლად."
+
+#: apps/marketing/src/app/(marketing)/open/page.tsx:218
+msgid "Community"
+msgstr "საზოგადოება"
+
+#: apps/marketing/src/app/(marketing)/open/monthly-completed-documents-chart.tsx:55
+msgid "Completed Documents"
+msgstr "დასრულებული დოკუმენტები"
+
+#: apps/marketing/src/app/(marketing)/open/monthly-completed-documents-chart.tsx:33
+msgid "Completed Documents per Month"
+msgstr "დასრულებული დოკუმენტები თვეში"
+
+#: apps/marketing/src/components/(marketing)/share-connect-paid-widget-bento.tsx:65
+msgid "Connections"
+msgstr "კავშირები"
+
+#: apps/marketing/src/components/(marketing)/enterprise.tsx:35
+msgid "Contact Us"
+msgstr "დაგვიკავშირდით"
+
+#: apps/marketing/src/components/(marketing)/share-connect-paid-widget-bento.tsx:67
+msgid "Create connections and automations with Zapier and more to integrate with your favorite tools."
+msgstr "შექმენით კავშირები და ავტომატიზაცია Zapier-თან და სხვა თქვენს საყვარელ ინსტრუმენტებთან ინტეგრაციისთვის."
+
+#: apps/marketing/src/components/(marketing)/call-to-action.tsx:23
+msgid "Create your account and start using state-of-the-art document signing. Open and beautiful signing is within your grasp."
+msgstr "შექმენით თქვენი ანგარიში და დაიწყეთ უახლესი დოკუმენტების ხელმოწერის გამოყენება. ღია და ლამაზი ხელმოწერა თქვენს ხელშია."
+
+#: apps/marketing/src/app/(marketing)/open/tooltip.tsx:35
+msgid "Customers with an Active Subscriptions."
+msgstr "მომხმარებლები აქტიური გამოწერით."
+
+#: apps/marketing/src/components/(marketing)/open-build-template-bento.tsx:33
+msgid "Customise and expand."
+msgstr "მოარგეთ და გააფართოვეთ."
+
+#: apps/marketing/src/components/(marketing)/footer.tsx:38
+msgid "Design"
+msgstr "დიზაინი"
+
+#: apps/marketing/src/app/(marketing)/pricing/page.tsx:44
+msgid "Designed for every stage of your journey."
+msgstr "შექმნილია თქვენი მოგზაურობის ყველა ეტაპისთვის."
+
+#: apps/marketing/src/components/(marketing)/carousel.tsx:40
+msgid "Direct Link"
+msgstr "პირდაპირი ბმული"
+
+#: apps/marketing/src/app/(marketing)/pricing/page.tsx:181
+msgid "Documenso is a community effort to create an open and vibrant ecosystem around a tool, everybody is free to use and adapt. By being truly open we want to create trusted infrastructure for the future of the internet."
+msgstr "Documenso არის საზოგადოების მცდელობა შექმნას ღია და ცოცხალი ეკოსისტემა ინსტრუმენტის გარშემო, რომლის გამოყენება და ადაპტირება ყველას შეუძლია. სრული გახსნილობით გვსურს შევქმნათ სანდო ინფრასტრუქტურა ინტერნეტის მომავლისთვის."
+
+#: apps/marketing/src/app/(marketing)/open/typefully.tsx:28
+msgid "Documenso on X"
+msgstr "Documenso X-ზე"
+
+#: apps/marketing/src/components/(marketing)/hero.tsx:104
+msgid "Document signing,<0/>finally open source."
+msgstr "დოკუმენტების ხელმოწერა,<0/>საბოლოოდ ღია წყაროთი."
+
+#: apps/marketing/src/components/(marketing)/footer.tsx:33
+#: apps/marketing/src/components/(marketing)/header.tsx:50
+#: apps/marketing/src/components/(marketing)/mobile-navigation.tsx:28
+msgid "Documentation"
+msgstr "დოკუმენტაცია"
+
+#: apps/marketing/src/components/(marketing)/share-connect-paid-widget-bento.tsx:110
+msgid "Easily embed Documenso into your product. Simply copy and paste our react widget into your application."
+msgstr "მარტივად ჩაამატეთ Documenso თქვენს პროდუქტში. უბრალოდ დააკოპირეთ და ჩასვით ჩვენი react ვიჯეტი თქვენს აპლიკაციაში."
+
+#: apps/marketing/src/components/(marketing)/share-connect-paid-widget-bento.tsx:46
+msgid "Easy Sharing."
+msgstr "მარტივი გაზიარება."
+
+#: apps/marketing/src/components/(marketing)/pricing-table.tsx:148
+#: apps/marketing/src/components/(marketing)/pricing-table.tsx:192
+msgid "Email and Discord Support"
+msgstr "ელფოსტისა და Discord-ის მხარდაჭერა"
+
+#: apps/marketing/src/app/(marketing)/open/team-members.tsx:43
+msgid "Engagement"
+msgstr "ჩართულობა"
+
+#: apps/marketing/src/app/(marketing)/singleplayer/client.tsx:64
+msgid "Enter your details."
+msgstr "შეიყვანეთ თქვენი დეტალები."
+
+#: apps/marketing/src/components/(marketing)/enterprise.tsx:16
+msgid "Enterprise Compliance, License or Technical Needs?"
+msgstr "საწარმოს შესაბამისობა, ლიცენზია ან ტექნიკური საჭიროებები?"
+
+#: apps/marketing/src/components/(marketing)/pricing-table.tsx:128
+msgid "Everything you need for a great signing experience."
+msgstr "ყველაფერი, რაც გჭირდებათ შესანიშნავი ხელმოწერის გამოცდილებისთვის."
+
+#: apps/marketing/src/components/(marketing)/faster-smarter-beautiful-bento.tsx:45
+msgid "Fast."
+msgstr "სწრაფი."
+
+#: apps/marketing/src/components/(marketing)/faster-smarter-beautiful-bento.tsx:36
+msgid "Faster, smarter and more beautiful."
+msgstr "უფრო სწრაფი, ჭკვიანი და ლამაზი."
+
+#: apps/marketing/src/app/(marketing)/open/page.tsx:209
+msgid "Finances"
+msgstr "ფინანსები"
+
+#: apps/marketing/src/app/(marketing)/open/typefully.tsx:38
+msgid "Follow us on X"
+msgstr "გამოგვყევით X-ზე"
+
+#: apps/marketing/src/components/(marketing)/pricing-table.tsx:172
+msgid "For companies looking to scale across multiple teams."
+msgstr "კომპანიებისთვის, რომლებსაც სურთ მასშტაბირება სხვადასხვა გუნდებში."
+
+#: apps/marketing/src/components/(marketing)/pricing-table.tsx:85
+msgid "For small teams and individuals with basic needs."
+msgstr "მცირე გუნდებისა და ინდივიდებისთვის ძირითადი საჭიროებებით."
+
+#: apps/marketing/src/components/(marketing)/pricing-table.tsx:80
+msgid "Free"
+msgstr "უფასო"
+
+#: apps/marketing/src/app/(marketing)/blog/page.tsx:26
+msgid "From the blog"
+msgstr "ბლოგიდან"
+
+#: apps/marketing/src/app/(marketing)/open/data.ts:9
+#: apps/marketing/src/app/(marketing)/open/data.ts:17
+#: apps/marketing/src/app/(marketing)/open/data.ts:25
+#: apps/marketing/src/app/(marketing)/open/data.ts:33
+#: apps/marketing/src/app/(marketing)/open/data.ts:41
+#: apps/marketing/src/app/(marketing)/open/data.ts:49
+msgid "Full-Time"
+msgstr "სრული განაკვეთი"
+
+#: apps/marketing/src/components/(marketing)/share-connect-paid-widget-bento.tsx:87
+msgid "Get paid (Soon)."
+msgstr "მიიღეთ გადახდა (მალე)."
+
+#: apps/marketing/src/components/(marketing)/call-to-action.tsx:31
+msgid "Get started"
+msgstr "დაიწყეთ"
+
+#: apps/marketing/src/app/(marketing)/pricing/page.tsx:75
+msgid "Get Started"
+msgstr "დაიწყეთ"
+
+#: apps/marketing/src/app/(marketing)/pricing/page.tsx:47
+msgid "Get started today."
+msgstr "დაიწყეთ დღესვე."
+
+#: apps/marketing/src/app/(marketing)/blog/page.tsx:30
+msgid "Get the latest news from Documenso, including product updates, team announcements and more!"
+msgstr "მიიღეთ უახლესი სიახლეები Documenso-დან, მათ შორის პროდუქტის განახლებები, გუნდის განცხადებები და მეტი!"
+
+#: apps/marketing/src/app/(marketing)/open/page.tsx:232
+msgid "GitHub: Total Merged PRs"
+msgstr "GitHub: ჯამური გაერთიანებული PR-ები"
+
+#: apps/marketing/src/app/(marketing)/open/page.tsx:250
+msgid "GitHub: Total Open Issues"
+msgstr "GitHub: ჯამური ღია საკითხები"
+
+#: apps/marketing/src/app/(marketing)/open/page.tsx:224
+msgid "GitHub: Total Stars"
+msgstr "GitHub: ჯამური ვარსკვლავები"
+
+#: apps/marketing/src/app/(marketing)/open/salary-bands.tsx:23
+msgid "Global Salary Bands"
+msgstr "გლობალური სახელფასო დიაპაზონები"
+
+#: apps/marketing/src/app/(marketing)/open/page.tsx:260
+msgid "Growth"
+msgstr "ზრდა"
+
+#: apps/marketing/src/app/(marketing)/pricing/page.tsx:134
+msgid "How can I contribute?"
+msgstr "როგორ შემიძლია წვლილის შეტანა?"
+
+#: apps/marketing/src/app/(marketing)/pricing/page.tsx:105
+msgid "How do you handle my data?"
+msgstr "როგორ ამუშავებთ ჩემს მონაცემებს?"
+
+#: apps/marketing/src/components/(marketing)/pricing-table.tsx:118
+msgid "Individual"
+msgstr "ინდივიდუალური"
+
+#: apps/marketing/src/components/(marketing)/share-connect-paid-widget-bento.tsx:89
+msgid "Integrated payments with Stripe so you don't have to worry about getting paid."
+msgstr "ინტეგრირებული გადახდები Stripe-თან, ასე რომ არ უნდა იდარდოთ გადახდის მიღებაზე."
+
+#: apps/marketing/src/components/(marketing)/share-connect-paid-widget-bento.tsx:35
+msgid "Integrates with all your favourite tools."
+msgstr "ინტეგრირდება თქვენს ყველა საყვარელ ინსტრუმენტთან."
+
+#: apps/marketing/src/app/(marketing)/open/page.tsx:288
+msgid "Is there more?"
+msgstr "არის კიდევ მეტი?"
+
+#: apps/marketing/src/components/(marketing)/open-build-template-bento.tsx:44
+msgid "It's up to you. Either clone our repository or rely on our easy to use hosting solution."
+msgstr "ეს თქვენზეა. ან დააკლონირეთ ჩვენი რეპოზიტორია ან დაეყრდენით ჩვენს მარტივად გამოსაყენებელ ჰოსტინგის გადაწყვეტას."
+
+#: apps/marketing/src/app/(marketing)/open/team-members.tsx:49
+msgid "Join Date"
+msgstr "შემოერთების თარიღი"
+
+#: apps/marketing/src/components/(marketing)/call-to-action.tsx:19
+msgid "Join the Open Signing Movement"
+msgstr "შემოუერთდით ღია ხელმოწერის მოძრაობას"
+
+#: apps/marketing/src/app/(marketing)/open/team-members.tsx:46
+msgid "Location"
+msgstr "მდებარეობა"
+
+#: apps/marketing/src/components/(marketing)/open-build-template-bento.tsx:66
+msgid "Make it your own through advanced customization and adjustability."
+msgstr "გახადეთ თქვენებური გაფართოებული მორგებისა და რეგულირების საშუალებით."
+
+#: apps/marketing/src/app/(marketing)/open/page.tsx:198
+msgid "Merged PR's"
+msgstr "გაერთიანებული PR-ები"
+
+#: apps/marketing/src/app/(marketing)/open/page.tsx:233
+msgid "Merged PRs"
+msgstr "გაერთიანებული PR-ები"
+
+#: apps/marketing/src/components/(marketing)/pricing-table.tsx:40
+msgid "Monthly"
+msgstr "ყოველთვიური"
+
+#: apps/marketing/src/app/(marketing)/open/team-members.tsx:34
+msgid "Name"
+msgstr "სახელი"
+
+#: apps/marketing/src/app/(marketing)/open/monthly-new-users-chart.tsx:30
+#: apps/marketing/src/app/(marketing)/open/monthly-new-users-chart.tsx:43
+#: apps/marketing/src/app/(marketing)/open/monthly-new-users-chart.tsx:52
+msgid "New Users"
+msgstr "ახალი მომხმარებლები"
+
+#: apps/marketing/src/components/(marketing)/pricing-table.tsx:106
+msgid "No credit card required"
+msgstr "საკრედიტო ბარათი არ არის საჭირო"
+
+#: apps/marketing/src/components/(marketing)/callout.tsx:29
+#: apps/marketing/src/components/(marketing)/hero.tsx:125
+msgid "No Credit Card required"
+msgstr "საკრედიტო ბარათი არ არის საჭირო"
+
+#: apps/marketing/src/app/(marketing)/pricing/page.tsx:61
+msgid "None of these work for you? Try self-hosting!"
+msgstr "არცერთი არ მუშაობს თქვენთვის? სცადეთ თვითჰოსტინგი!"
+
+#: apps/marketing/src/app/(marketing)/open/page.tsx:193
+#: apps/marketing/src/app/(marketing)/open/page.tsx:251
+msgid "Open Issues"
+msgstr "ღია საკითხები"
+
+#: apps/marketing/src/components/(marketing)/open-build-template-bento.tsx:42
+msgid "Open Source or Hosted."
+msgstr "ღია წყარო ან ჰოსტინგი."
+
+#: apps/marketing/src/app/(marketing)/open/page.tsx:160
+#: apps/marketing/src/components/(marketing)/footer.tsx:37
+#: apps/marketing/src/components/(marketing)/header.tsx:64
+#: apps/marketing/src/components/(marketing)/mobile-navigation.tsx:40
+msgid "Open Startup"
+msgstr "ღია სტარტაპი"
+
+#: apps/marketing/src/components/(marketing)/footer.tsx:41
+msgid "OSS Friends"
+msgstr "OSS მეგობრები"
+
+#: apps/marketing/src/components/(marketing)/faster-smarter-beautiful-bento.tsx:91
+msgid "Our custom templates come with smart rules that can help you save time and energy."
+msgstr "ჩვენი მორგებული შაბლონები მოდის ჭკვიანი წესებით, რომლებიც დაგეხმარებათ დროისა და ენერგიის დაზოგვაში."
+
+#: apps/marketing/src/components/(marketing)/enterprise.tsx:20
+msgid "Our Enterprise License is great for large organizations looking to switch to Documenso for all their signing needs. It's available for our cloud offering as well as self-hosted setups and offers a wide range of compliance and Adminstration Features."
+msgstr "ჩვენი საწარმოო ლიცენზია შესანიშნავია დიდი ორგანიზაციებისთვის, რომლებსაც სურთ Documenso-ზე გადასვლა მათი ყველა ხელმოწერის საჭიროებისთვის. ის ხელმისაწვდომია როგორც ჩვენი ღრუბლოვანი შეთავაზებისთვის, ასევე თვითჰოსტირებული კონფიგურაციებისთვის და გთავაზობთ შესაბამისობისა და ადმინისტრირების ფუნქციების ფართო სპექტრს."
+
+#: apps/marketing/src/app/(marketing)/pricing/page.tsx:65
+msgid "Our self-hosted option is great for small teams and individuals who need a simple solution. You can use our docker based setup to get started in minutes. Take control with full customizability and data ownership."
+msgstr "ჩვენი თვით-ჰოსტინგის ოფცია იდეალურია მცირე გუნდებისა და ინდივიდებისთვის, ვისაც სჭირდება მარტივი გადაწყვეტა. თქვენ შეგიძლიათ გამოიყენოთ ჩვენი docker-ზე დაფუძნებული კონფიგურაცია რამდენიმე წუთში დასაწყებად. აიღეთ კონტროლი სრული მორგების და მონაცემების მფლობელობის შესაძლებლობით."
+
+#: apps/marketing/src/components/(marketing)/pricing-table.tsx:151
+msgid "Premium Profile Name"
+msgstr "პრემიუმ პროფილის სახელი"
+
+#: apps/marketing/src/app/(marketing)/pricing/page.tsx:40
+#: apps/marketing/src/components/(marketing)/footer.tsx:31
+#: apps/marketing/src/components/(marketing)/header.tsx:42
+#: apps/marketing/src/components/(marketing)/mobile-navigation.tsx:24
+msgid "Pricing"
+msgstr "ფასები"
+
+#: apps/marketing/src/components/(marketing)/footer.tsx:43
+#: apps/marketing/src/components/(marketing)/mobile-navigation.tsx:53
+msgid "Privacy"
+msgstr "კონფიდენციალურობა"
+
+#: apps/marketing/src/components/(marketing)/carousel.tsx:58
+msgid "Profile"
+msgstr "პროფილი"
+
+#: apps/marketing/src/components/(marketing)/share-connect-paid-widget-bento.tsx:108
+msgid "React Widget (Soon)."
+msgstr "React ვიჯეტი (მალე)."
+
+#: apps/marketing/src/components/(marketing)/share-connect-paid-widget-bento.tsx:48
+msgid "Receive your personal link to share with everyone you care about."
+msgstr "მიიღეთ თქვენი პირადი ბმული გასაზიარებლად ყველასთან, ვინც თქვენთვის მნიშვნელოვანია."
+
+#: apps/marketing/src/app/(marketing)/open/team-members.tsx:37
+msgid "Role"
+msgstr "როლი"
+
+#: apps/marketing/src/app/(marketing)/open/salary-bands.tsx:37
+#: apps/marketing/src/app/(marketing)/open/team-members.tsx:40
+msgid "Salary"
+msgstr "ხელფასი"
+
+#: apps/marketing/src/components/(marketing)/pricing-table.tsx:62
+msgid "Save $60 or $120"
+msgstr "დაზოგეთ $60 ან $120"
+
+#: apps/marketing/src/app/(marketing)/pricing/page.tsx:109
+msgid "Securely. Our data centers are located in Frankfurt (Germany), giving us the best local privacy laws. We are very aware of the sensitive nature of our data and follow best practices to ensure the security and integrity of the data entrusted to us."
+msgstr "უსაფრთხოდ. ჩვენი მონაცემთა ცენტრები მდებარეობს ფრანკფურტში (გერმანია), რაც გვაძლევს საუკეთესო ადგილობრივ კონფიდენციალურობის კანონებს. ჩვენ კარგად გვესმის ჩვენი მონაცემების სენსიტიური ბუნება და ვიცავთ საუკეთესო პრაქტიკებს ჩვენთვის მინდობილი მონაცემების უსაფრთხოებისა და მთლიანობის უზრუნველსაყოფად."
+
+#: apps/marketing/src/components/(marketing)/share-connect-paid-widget-bento.tsx:37
+msgid "Send, connect, receive and embed everywhere."
+msgstr "გაგზავნეთ, დაუკავშირდით, მიიღეთ და ჩაასმით ყველგან."
+
+#: apps/marketing/src/app/(marketing)/open/salary-bands.tsx:34
+msgid "Seniority"
+msgstr "სტაჟი"
+
+#: apps/marketing/src/components/(marketing)/footer.tsx:39
+msgid "Shop"
+msgstr "მაღაზია"
+
+#: apps/marketing/src/app/(marketing)/singleplayer/client.tsx:63
+msgid "Sign"
+msgstr "ხელმოწერა"
+
+#: apps/marketing/src/components/(marketing)/header.tsx:72
+#: apps/marketing/src/components/(marketing)/mobile-navigation.tsx:61
+msgid "Sign in"
+msgstr "შესვლა"
+
+#: apps/marketing/src/components/(marketing)/header.tsx:77
+#: apps/marketing/src/components/(marketing)/mobile-navigation.tsx:57
+msgid "Sign up"
+msgstr "რეგისტრაცია"
+
+#: apps/marketing/src/components/(marketing)/carousel.tsx:22
+msgid "Signing Process"
+msgstr "ხელმოწერის პროცესი"
+
+#: apps/marketing/src/components/(marketing)/pricing-table.tsx:94
+#: apps/marketing/src/components/(marketing)/pricing-table.tsx:136
+#: apps/marketing/src/components/(marketing)/pricing-table.tsx:180
+msgid "Signup Now"
+msgstr "დარეგისტრირდით ახლა"
+
+#: apps/marketing/src/components/(marketing)/faster-smarter-beautiful-bento.tsx:89
+msgid "Smart."
+msgstr "ჭკვიანი."
+
+#: apps/marketing/src/components/(marketing)/hero.tsx:132
+msgid "Star on GitHub"
+msgstr "მოიწონეთ GitHub-ზე"
+
+#: apps/marketing/src/app/(marketing)/open/page.tsx:225
+msgid "Stars"
+msgstr "ვარსკვლავები"
+
+#: apps/marketing/src/components/(marketing)/footer.tsx:40
+#: apps/marketing/src/components/(marketing)/mobile-navigation.tsx:44
+msgid "Status"
+msgstr "სტატუსი"
+
+#: apps/marketing/src/components/(marketing)/footer.tsx:34
+#: apps/marketing/src/components/(marketing)/mobile-navigation.tsx:48
+msgid "Support"
+msgstr "მხარდაჭერა"
+
+#: apps/marketing/src/app/(marketing)/open/team-members.tsx:26
+msgid "Team"
+msgstr "გუნდი"
+
+#: apps/marketing/src/components/(marketing)/pricing-table.tsx:195
+msgid "Team Inbox"
+msgstr "გუნდის საფოსტო ყუთი"
+
+#: apps/marketing/src/components/(marketing)/carousel.tsx:28
+#: apps/marketing/src/components/(marketing)/pricing-table.tsx:162
+msgid "Teams"
+msgstr "გუნდები"
+
+#: apps/marketing/src/components/(marketing)/open-build-template-bento.tsx:83
+msgid "Template Store (Soon)."
+msgstr "შაბლონების მაღაზია (მალე)."
+
+#: apps/marketing/src/app/(marketing)/pricing/page.tsx:138
+msgid "That's awesome. You can take a look at the current <0>Issues</0> and join our <1>Discord Community</1> to keep up to date, on what the current priorities are. In any case, we are an open community and welcome all input, technical and non-technical ❤️"
+msgstr "ეს შესანიშნავია. შეგიძლიათ გადახედოთ მიმდინარე <0>საკითხებს</0> და შეუერთდეთ ჩვენს <1>Discord საზოგადოებას</1> რათა იყოთ საქმის კურსში, თუ რა არის ამჟამინდელი პრიორიტეტები. ნებისმიერ შემთხვევაში, ჩვენ ვართ ღია საზოგადოება და მივესალმებით ყველანაირ წვლილს, ტექნიკურს თუ არატექნიკურს ❤️"
+
+#: apps/marketing/src/app/(marketing)/open/page.tsx:292
+msgid "This page is evolving as we learn what makes a great signing company. We'll update it when we have more to share."
+msgstr "ეს გვერდი ვითარდება, რადგან ვსწავლობთ, თუ რა ქმნის შესანიშნავ ხელმოწერის კომპანიას. ჩვენ განვაახლებთ მას, როდესაც მეტი გვექნება გასაზიარებელი."
+
+#: apps/marketing/src/app/(marketing)/open/salary-bands.tsx:31
+msgid "Title"
+msgstr "თანამდებობა"
+
+#: apps/marketing/src/app/(marketing)/open/total-signed-documents-chart.tsx:30
+#: apps/marketing/src/app/(marketing)/open/total-signed-documents-chart.tsx:55
+msgid "Total Completed Documents"
+msgstr "სულ დასრულებული დოკუმენტები"
+
+#: apps/marketing/src/app/(marketing)/open/page.tsx:266
+#: apps/marketing/src/app/(marketing)/open/page.tsx:267
+msgid "Total Customers"
+msgstr "სულ მომხმარებლები"
+
+#: apps/marketing/src/app/(marketing)/open/funding-raised.tsx:29
+msgid "Total Funding Raised"
+msgstr "სულ მოზიდული დაფინანსება"
+
+#: apps/marketing/src/app/(marketing)/open/monthly-total-users-chart.tsx:30
+#: apps/marketing/src/app/(marketing)/open/monthly-total-users-chart.tsx:43
+#: apps/marketing/src/app/(marketing)/open/monthly-total-users-chart.tsx:52
+msgid "Total Users"
+msgstr "სულ მომხმარებლები"
+
+#: apps/marketing/src/components/(marketing)/open-build-template-bento.tsx:31
+msgid "Truly your own."
+msgstr "ნამდვილად თქვენი."
+
+#: apps/marketing/src/components/(marketing)/callout.tsx:27
+#: apps/marketing/src/components/(marketing)/hero.tsx:123
+msgid "Try our Free Plan"
+msgstr "სცადეთ ჩვენი უფასო გეგმა"
+
+#: apps/marketing/src/app/(marketing)/open/typefully.tsx:20
+msgid "Twitter Stats"
+msgstr "Twitter სტატისტიკა"
+
+#: apps/marketing/src/components/(marketing)/pricing-table.tsx:142
+#: apps/marketing/src/components/(marketing)/pricing-table.tsx:186
+msgid "Unlimited Documents per Month"
+msgstr "შეუზღუდავი დოკუმენტები თვეში"
+
+#: apps/marketing/src/components/(marketing)/pricing-table.tsx:103
+msgid "Up to 10 recipients per document"
+msgstr "10-მდე მიმღები თითო დოკუმენტზე"
+
+#: apps/marketing/src/app/(marketing)/singleplayer/client.tsx:52
+msgid "Upload a document and add fields."
+msgstr "ატვირთეთ დოკუმენტი და დაამატეთ ველები."
+
+#: apps/marketing/src/app/(marketing)/pricing/page.tsx:123
+msgid "Using our hosted version is the easiest way to get started, you can simply subscribe and start signing your documents. We take care of the infrastructure, so you can focus on your business. Additionally, when using our hosted version you benefit from our trusted signing certificates which helps you to build trust with your customers."
+msgstr "ჩვენი ჰოსტინგის ვერსიის გამოყენება არის ყველაზე მარტივი გზა დასაწყებად, თქვენ უბრალოდ შეგიძლიათ გამოიწეროთ და დაიწყოთ თქვენი დოკუმენტების ხელმოწერა. ჩვენ ვზრუნავთ ინფრასტრუქტურაზე, რათა თქვენ შეძლოთ თქვენს ბიზნესზე კონცენტრირება. დამატებით, ჩვენი ჰოსტინგის ვერსიის გამოყენებისას თქვენ სარგებლობთ ჩვენი სანდო ხელმოწერის სერტიფიკატებით, რაც გეხმარებათ თქვენს მომხმარებლებთან ნდობის ჩამოყალიბებაში."
+
+#: apps/marketing/src/app/(marketing)/open/typefully.tsx:33
+msgid "View all stats"
+msgstr "ყველა სტატისტიკის ნახვა"
+
+#: apps/marketing/src/app/(marketing)/pricing/page.tsx:195
+msgid "We are happy to assist you at <0>support@documenso.com</0> or <1>in our Discord-Support-Channel</1> please message either Lucas or Timur to get added to the channel if you are not already a member."
+msgstr "სიამოვნებით დაგეხმარებით <0>support@documenso.com</0>-ზე ან <1>ჩვენს Discord-ის მხარდაჭერის არხზე</1>. გთხოვთ მისწერეთ ლუკასს ან თიმურს არხზე დასამატებლად, თუ ჯერ არ ხართ წევრი."
+
+#: apps/marketing/src/app/(marketing)/pricing/page.tsx:89
+msgid "What is the difference between the plans?"
+msgstr "რა განსხვავებაა გეგმებს შორის?"
+
+#: apps/marketing/src/components/(marketing)/faster-smarter-beautiful-bento.tsx:47
+msgid "When it comes to sending or receiving a contract, you can count on lightning-fast speeds."
+msgstr "როდესაც საქმე ეხება ხელშეკრულების გაგზავნას ან მიღებას, შეგიძლიათ დაეყრდნოთ ელვისებურ სიჩქარეს."
+
+#: apps/marketing/src/app/(marketing)/pricing/page.tsx:191
+msgid "Where can I get support?"
+msgstr "სად შემიძლია მივიღო მხარდაჭერა?"
+
+#: apps/marketing/src/app/(marketing)/pricing/page.tsx:177
+msgid "Why should I prefer Documenso over DocuSign or some other signing tool?"
+msgstr "რატომ უნდა ვამჯობინო Documenso DocuSign-ს ან სხვა ხელმოწერის ინსტრუმენტს?"
+
+#: apps/marketing/src/app/(marketing)/pricing/page.tsx:119
+msgid "Why should I use your hosting service?"
+msgstr "რატომ უნდა გამოვიყენო თქვენი ჰოსტინგის სერვისი?"
+
+#: apps/marketing/src/components/(marketing)/pricing-table.tsx:60
+msgid "Yearly"
+msgstr "წლიური"
+
+#: apps/marketing/src/app/(marketing)/pricing/page.tsx:167
+msgid "Yes! Documenso is offered under the GNU AGPL V3 open source license. This means you can use it for free and even modify it to fit your needs, as long as you publish your changes under the same license."
+msgstr "დიახ! Documenso გთავაზობთ GNU AGPL V3 ღია წყაროს ლიცენზიას. ეს ნიშნავს, რომ შეგიძლიათ უფასოდ გამოიყენოთ და შეცვალოთ კიდეც თქვენი საჭიროებების მიხედვით, მანამ სანამ თქვენს ცვლილებებს იმავე ლიცენზიით გამოაქვეყნებთ."
+
+#: apps/marketing/src/app/(marketing)/pricing/page.tsx:93
+msgid "You can self-host Documenso for free or use our ready-to-use hosted version. The hosted version comes with additional support, painless scalability and more. Early adopters will get access to all features we build this year, for no additional cost! Forever! Yes, that includes multiple users per account later. If you want Documenso for your enterprise, we are happy to talk about your needs."
+msgstr "შეგიძლიათ თვითონ უმასპინძლოთ Documenso-ს უფასოდ ან გამოიყენოთ ჩვენი მზა ჰოსტინგის ვერსია. ჰოსტინგის ვერსია მოდის დამატებითი მხარდაჭერით, უმტკივნეულო მასშტაბურობით და მეტით. ადრეულ მომხმარებლებს ექნებათ წვდომა ყველა ფუნქციაზე, რომელსაც ჩვენ წელს ვქმნით, დამატებითი ხარჯების გარეშე! სამუდამოდ! დიახ, ეს მოიცავს მრავალ მომხმარებელს ერთ ანგარიშზე მოგვიანებით. თუ გსურთ Documenso თქვენი საწარმოსთვის, სიამოვნებით განვიხილავთ თქვენს საჭიროებებს."
+
+#: apps/marketing/src/components/(marketing)/carousel.tsx:272
+msgid "Your browser does not support the video tag."
+msgstr "თქვენი ბრაუზერი არ უჭერს მხარს ვიდეო ტეგს."
+

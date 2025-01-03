@@ -181,7 +181,7 @@ export const TemplatesDataTable = ({
           <AlertDescription className="mt-2">
             <Trans>
               You have reached your document limit.{' '}
-              <Link className="underline underline-offset-4" href="/settings/billing">
+              <Link className="underline underline-offset-4" href="/settings/subscription">
                 Upgrade your account to continue!
               </Link>
             </Trans>

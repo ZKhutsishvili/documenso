@@ -3,6 +3,7 @@ import { TRPCError } from '@trpc/server';
 import { findDocuments } from '@documenso/lib/server-only/admin/get-all-documents';
 import { getEntireDocument } from '@documenso/lib/server-only/admin/get-entire-document';
 import { updateRecipient } from '@documenso/lib/server-only/admin/update-recipient';
+import { updateSubscription } from '@documenso/lib/server-only/admin/update-subscription';
 import { updateUser } from '@documenso/lib/server-only/admin/update-user';
 import { sealDocument } from '@documenso/lib/server-only/document/seal-document';
 import { sendDeleteEmail } from '@documenso/lib/server-only/document/send-delete-email';
@@ -22,6 +23,7 @@ import {
   ZAdminUpdateProfileMutationSchema,
   ZAdminUpdateRecipientMutationSchema,
   ZAdminUpdateSiteSettingMutationSchema,
+  ZAdminUpdateSubscriptionMutationSchema,
 } from './schema';
 
 export const adminRouter = router({
@@ -47,6 +49,23 @@ export const adminRouter = router({
 
       try {
         return await updateUser({ id, name, email, roles });
+      } catch (err) {
+        console.error(err);
+
+        throw new TRPCError({
+          code: 'BAD_REQUEST',
+          message: 'We were unable to retrieve the specified account. Please try again.',
+        });
+      }
+    }),
+
+  updateSubscription: adminProcedure
+    .input(ZAdminUpdateSubscriptionMutationSchema)
+    .mutation(async ({ input }) => {
+      const { id, type, status } = input;
+
+      try {
+        return await updateSubscription({ id, type, status });
       } catch (err) {
         console.error(err);
 

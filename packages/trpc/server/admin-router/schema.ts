@@ -1,4 +1,4 @@
-import { Role } from '@prisma/client';
+import { Role, SubscriptionStatus, SubscriptionType } from '@prisma/client';
 import z from 'zod';
 
 import { ZSiteSettingSchema } from '@documenso/lib/server-only/site-settings/schema';
@@ -19,6 +19,16 @@ export const ZAdminUpdateProfileMutationSchema = z.object({
 });
 
 export type TAdminUpdateProfileMutationSchema = z.infer<typeof ZAdminUpdateProfileMutationSchema>;
+
+export const ZAdminUpdateSubscriptionMutationSchema = z.object({
+  id: z.number().min(1),
+  status: z.nativeEnum(SubscriptionStatus),
+  type: z.nativeEnum(SubscriptionType),
+});
+
+export type TAdminUpdateSubscriptionMutationSchema = z.infer<
+  typeof ZAdminUpdateSubscriptionMutationSchema
+>;
 
 export const ZAdminUpdateRecipientMutationSchema = z.object({
   id: z.number().min(1),

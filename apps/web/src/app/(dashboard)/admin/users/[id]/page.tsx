@@ -1,5 +1,7 @@
 'use client';
 
+import { useEffect, useState } from 'react';
+
 import { useRouter } from 'next/navigation';
 
 import { zodResolver } from '@hookform/resolvers/zod';
@@ -8,6 +10,7 @@ import { useLingui } from '@lingui/react';
 import { useForm } from 'react-hook-form';
 import type { z } from 'zod';
 
+import { SubscriptionStatus, SubscriptionType } from '@documenso/prisma/client';
 import { trpc } from '@documenso/trpc/react';
 import { ZAdminUpdateProfileMutationSchema } from '@documenso/trpc/server/admin-router/schema';
 import { Button } from '@documenso/ui/primitives/button';
@@ -20,6 +23,13 @@ import {
   FormMessage,
 } from '@documenso/ui/primitives/form/form';
 import { Input } from '@documenso/ui/primitives/input';
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from '@documenso/ui/primitives/select';
 import { useToast } from '@documenso/ui/primitives/use-toast';
 
 import { DeleteUserDialog } from './delete-user-dialog';
@@ -45,8 +55,25 @@ export default function UserPage({ params }: { params: { id: number } }) {
   );
 
   const roles = user?.roles ?? [];
+  const [type, setType] = useState<SubscriptionType | undefined>();
+  const [status, setStatus] = useState<SubscriptionStatus | undefined>();
+
+  useEffect(() => {
+    if (user?.Subscription[0]) {
+      setStatus(user?.Subscription[0] ? user?.Subscription[0].status : SubscriptionStatus.INACTIVE);
+      setType(user?.Subscription[0] ? user?.Subscription[0].type : SubscriptionType.FREE);
+    }
+  }, [user]);
+
+  const types = [SubscriptionType.FREE, SubscriptionType.BASIC, SubscriptionType.ENTERPRISE];
+  const statuses = [
+    SubscriptionStatus.ACTIVE,
+    SubscriptionStatus.INACTIVE,
+    SubscriptionStatus.PAST_DUE,
+  ];
 
   const { mutateAsync: updateUserMutation } = trpc.admin.updateUser.useMutation();
+  const { mutateAsync: updateSubscriptionMutation } = trpc.admin.updateSubscription.useMutation();
 
   const form = useForm<TUserFormSchema>({
     resolver: zodResolver(ZUserFormSchema),
@@ -59,6 +86,13 @@ export default function UserPage({ params }: { params: { id: number } }) {
 
   const onSubmit = async ({ name, email, roles }: TUserFormSchema) => {
     try {
+      if (user?.Subscription[0]) {
+        await updateSubscriptionMutation({
+          id: Number(user?.Subscription[0].id),
+          type: type || SubscriptionType.FREE,
+          status: status || SubscriptionStatus.INACTIVE,
+        });
+      }
       await updateUserMutation({
         id: Number(user?.id),
         name,
@@ -141,6 +175,55 @@ export default function UserPage({ params }: { params: { id: number } }) {
                 </FormItem>
               )}
             />
+            {type && (
+              <>
+                <FormLabel className="text-muted-foreground">
+                  <Trans>Change Subscription</Trans>
+                </FormLabel>
+                <Select
+                  defaultValue={type}
+                  onValueChange={(value: SubscriptionType) => setType(value)}
+                >
+                  <SelectTrigger className="w-[200px]">
+                    <SelectValue placeholder={_(msg`Select a team`)} />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {types?.map((elem) => (
+                      <SelectItem key={elem} value={elem}>
+                        <div className="flex items-center gap-4">
+                          <span>{elem}</span>
+                        </div>
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+              </>
+            )}
+
+            {status && (
+              <>
+                <FormLabel className="text-muted-foreground">
+                  <Trans>Change Subscription Status</Trans>
+                </FormLabel>
+                <Select
+                  defaultValue={status}
+                  onValueChange={(value: SubscriptionStatus) => setStatus(value)}
+                >
+                  <SelectTrigger className="w-[200px]">
+                    <SelectValue placeholder={_(msg`Select a team`)} />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {statuses?.map((elem) => (
+                      <SelectItem key={elem} value={elem}>
+                        <div className="flex items-center gap-4">
+                          <span>{elem}</span>
+                        </div>
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+              </>
+            )}
 
             <div className="mt-4">
               <Button type="submit" loading={form.formState.isSubmitting}>

@@ -1,0 +1,1523 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2024-07-24 13:01+1000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: ka\n"
+"Project-Id-Version: documenso-app\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2024-11-05 09:34\n"
+"Last-Translator: \n"
+"Language-Team: Georgian\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: documenso-app\n"
+"X-Crowdin-Project-ID: 694691\n"
+"X-Crowdin-Language: ka\n"
+"X-Crowdin-File: common.po\n"
+"X-Crowdin-File-ID: 4\n"
+
+#: packages/email/template-components/template-document-super-delete.tsx:27
+msgid "\"{documentName}\" has been deleted by an admin."
+msgstr "\"{documentName}\" წაიშალა ადმინისტრატორის მიერ."
+
+#: packages/email/template-components/template-document-pending.tsx:37
+msgid ""{documentName}" has been signed"
+msgstr "„{documentName}" ხელმოწერილია"
+
+#: packages/email/template-components/template-document-completed.tsx:41
+#: packages/lib/server-only/document/resend-document.tsx:109
+msgid "{0}"
+msgstr "{0}"
+
+#: packages/email/template-components/template-document-invite.tsx:74
+msgid "{0} Document"
+msgstr "{0} დოკუმენტი"
+
+#: packages/lib/jobs/definitions/emails/send-signing-email.ts:117
+msgid "{0} invited you to {recipientActionVerb} a document"
+msgstr "{0}-მა მოგიწვიათ დოკუმენტის {recipientActionVerb}"
+
+#: packages/email/templates/team-join.tsx:55
+msgid "{0} joined the team {teamName} on Documenso"
+msgstr "{0} შეუერთდა გუნდს {teamName} Documenso-ზე"
+
+#: packages/email/templates/team-leave.tsx:55
+msgid "{0} left the team {teamName} on Documenso"
+msgstr "{0}-მა დატოვა გუნდი {teamName} Documenso-ზე"
+
+#: packages/ui/primitives/data-table-pagination.tsx:30
+msgid "{0} of {1} row(s) selected."
+msgstr "არჩეულია {1} სტრიქონიდან {0}."
+
+#: packages/lib/jobs/definitions/emails/send-signing-email.ts:119
+#: packages/lib/server-only/document/resend-document.tsx:119
+msgid "{0} on behalf of {1} has invited you to {recipientActionVerb} the document \"{2}\"."
+msgstr "{0}-მა {1}-ის სახელით მოგიწვიათ დოკუმენტის \"{2}\" {recipientActionVerb}."
+
+#: packages/email/templates/document-invite.tsx:79
+msgid "{inviterName} <0>({inviterEmail})</0>"
+msgstr "{inviterName} <0>({inviterEmail})</0>"
+
+#: packages/email/templates/document-cancel.tsx:19
+msgid "{inviterName} has cancelled the document {documentName}, you don't need to sign it anymore."
+msgstr "{inviterName}-მა გააუქმა დოკუმენტი {documentName}, აღარ გჭირდებათ მისი ხელმოწერა."
+
+#: packages/email/template-components/template-document-cancel.tsx:24
+msgid "{inviterName} has cancelled the document<0/>\"{documentName}\""
+msgstr "{inviterName}-მა გააუქმა დოკუმენტი<0/>\"{documentName}\""
+
+#: packages/email/template-components/template-document-invite.tsx:57
+msgid "{inviterName} has invited you to {0}<0/>\"{documentName}\""
+msgstr "{inviterName}-მა მოგიწვიათ {0}<0/>\"{documentName}\""
+
+#: packages/email/templates/document-invite.tsx:41
+msgid "{inviterName} has invited you to {action} {documentName}"
+msgstr "{inviterName}-მა მოგიწვიათ {action} {documentName}"
+
+#: packages/email/templates/recipient-removed-from-document.tsx:18
+msgid "{inviterName} has removed you from the document {documentName}."
+msgstr "{inviterName}-მა წაგშალათ დოკუმენტიდან {documentName}."
+
+#: packages/email/template-components/template-document-invite.tsx:49
+msgid "{inviterName} on behalf of {teamName} has invited you to {0}<0/>\"{documentName}\""
+msgstr "{inviterName}-მა {teamName}-ის სახელით მოგიწვიათ {0}<0/>\"{documentName}\""
+
+#: packages/email/templates/document-invite.tsx:40
+msgid "{inviterName} on behalf of {teamName} has invited you to {action} {documentName}"
+msgstr "{inviterName}-მა {teamName}-ის სახელით მოგიწვიათ {action} {documentName}"
+
+#: packages/email/templates/team-join.tsx:61
+msgid "{memberEmail} joined the following team"
+msgstr "{memberEmail} შეუერთდა შემდეგ გუნდს"
+
+#: packages/email/templates/team-leave.tsx:61
+msgid "{memberEmail} left the following team"
+msgstr "{memberEmail}-მა დატოვა შემდეგი გუნდი"
+
+#: packages/lib/utils/document-audit-logs.ts:263
+msgid "{prefix} added a field"
+msgstr "{prefix}-მა დაამატა ველი"
+
+#: packages/lib/utils/document-audit-logs.ts:275
+msgid "{prefix} added a recipient"
+msgstr "{prefix}-მა დაამატა მიმღები"
+
+#: packages/lib/utils/document-audit-logs.ts:287
+msgid "{prefix} created the document"
+msgstr "{prefix}-მა შექმნა დოკუმენტი"
+
+#: packages/lib/utils/document-audit-logs.ts:291
+msgid "{prefix} deleted the document"
+msgstr "{prefix}-მა წაშალა დოკუმენტი"
+
+#: packages/lib/utils/document-audit-logs.ts:335
+msgid "{prefix} moved the document to team"
+msgstr "{prefix}-მა გადაიტანა დოკუმენტი გუნდში"
+
+#: packages/lib/utils/document-audit-logs.ts:319
+msgid "{prefix} opened the document"
+msgstr "{prefix}-მა გახსნა დოკუმენტი"
+
+#: packages/lib/utils/document-audit-logs.ts:267
+msgid "{prefix} removed a field"
+msgstr "{prefix}-მა წაშალა ველი"
+
+#: packages/lib/utils/document-audit-logs.ts:279
+msgid "{prefix} removed a recipient"
+msgstr "{prefix}-მა წაშალა მიმღები"
+
+#: packages/lib/utils/document-audit-logs.ts:355
+msgid "{prefix} resent an email to {0}"
+msgstr "{prefix}-მა ხელახლა გაგზავნა ელ.ფოსტა {0}-ს"
+
+#: packages/lib/utils/document-audit-logs.ts:356
+msgid "{prefix} sent an email to {0}"
+msgstr "{prefix}-მა გაგზავნა ელ.ფოსტა {0}-ს"
+
+#: packages/lib/utils/document-audit-logs.ts:331
+msgid "{prefix} sent the document"
+msgstr "{prefix}-მა გაგზავნა დოკუმენტი"
+
+#: packages/lib/utils/document-audit-logs.ts:295
+msgid "{prefix} signed a field"
+msgstr "{prefix}-მა ხელი მოაწერა ველს"
+
+#: packages/lib/utils/document-audit-logs.ts:299
+msgid "{prefix} unsigned a field"
+msgstr "{prefix}-მა გააუქმა ველის ხელმოწერა"
+
+#: packages/lib/utils/document-audit-logs.ts:271
+msgid "{prefix} updated a field"
+msgstr "{prefix}-მა განაახლა ველი"
+
+#: packages/lib/utils/document-audit-logs.ts:283
+msgid "{prefix} updated a recipient"
+msgstr "{prefix}-მა განაახლა მიმღები"
+
+#: packages/lib/utils/document-audit-logs.ts:315
+msgid "{prefix} updated the document"
+msgstr "{prefix}-მა განაახლა დოკუმენტი"
+
+#: packages/lib/utils/document-audit-logs.ts:307
+msgid "{prefix} updated the document access auth requirements"
+msgstr "{prefix}-მა განაახლა დოკუმენტზე წვდომის ავტორიზაციის მოთხოვნები"
+
+#: packages/lib/utils/document-audit-logs.ts:327
+msgid "{prefix} updated the document external ID"
+msgstr "{prefix}-მა განაახლა დოკუმენტის გარე ID"
+
+#: packages/lib/utils/document-audit-logs.ts:311
+msgid "{prefix} updated the document signing auth requirements"
+msgstr "{prefix}-მა განაახლა დოკუმენტის ხელმოწერის ავტორიზაციის მოთხოვნები"
+
+#: packages/lib/utils/document-audit-logs.ts:323
+msgid "{prefix} updated the document title"
+msgstr "{prefix}-მა განაახლა დოკუმენტის სათაური"
+
+#: packages/lib/utils/document-audit-logs.ts:303
+msgid "{prefix} updated the document visibility"
+msgstr "{prefix}-მა განაახლა დოკუმენტის ხილვადობა"
+
+#: packages/email/templates/document-created-from-direct-template.tsx:55
+msgid "{recipientName} {action} a document by using one of your direct links"
+msgstr "{recipientName}-მა {action} დოკუმენტი თქვენი პირდაპირი ბმულების გამოყენებით"
+
+#: packages/email/templates/team-transfer-request.tsx:55
+msgid "{teamName} ownership transfer request"
+msgstr "{teamName}-ის მფლობელობის გადაცემის მოთხოვნა"
+
+#: packages/lib/utils/document-audit-logs.ts:343
+msgid "{userName} approved the document"
+msgstr "{userName}-მა დაამტკიცა დოკუმენტი"
+
+#: packages/lib/utils/document-audit-logs.ts:344
+msgid "{userName} CC'd the document"
+msgstr "{userName}-მა დააკოპირა დოკუმენტი"
+
+#: packages/lib/utils/document-audit-logs.ts:345
+msgid "{userName} completed their task"
+msgstr "{userName}-მა დაასრულა დავალება"
+
+#: packages/lib/utils/document-audit-logs.ts:341
+msgid "{userName} signed the document"
+msgstr "{userName}-მა ხელი მოაწერა დოკუმენტს"
+
+#: packages/lib/utils/document-audit-logs.ts:342
+msgid "{userName} viewed the document"
+msgstr "{userName}-მა ნახა დოკუმენტი"
+
+#: packages/ui/primitives/data-table-pagination.tsx:41
+msgid "{visibleRows, plural, one {Showing # result.} other {Showing # results.}}"
+msgstr "{visibleRows, plural, one {ნაჩვენებია # შედეგი.} other {ნაჩვენებია # შედეგი.}}"
+
+#: packages/email/templates/document-invite.tsx:91
+msgid "`${inviterName} has invited you to ${action} the document \"${documentName}\".`"
+msgstr "`{inviterName}-მა მოგიწვიათ დოკუმენტის \"{documentName}\" {action}.`"
+
+#: packages/email/templates/team-transfer-request.tsx:59
+msgid "<0>{senderName}</0> has requested that you take ownership of the following team"
+msgstr "<0>{senderName}</0>-მა მოითხოვა შემდეგი გუნდის მფლობელობის გადმოცემა"
+
+#: packages/ui/components/recipient/recipient-action-auth-select.tsx:53
+msgid "<0>Inherit authentication method</0> - Use the global action signing authentication method configured in the \"General Settings\" step"
+msgstr "<0>ავთენტიფიკაციის მეთოდის მემკვიდრეობა</0> - გამოიყენეთ გლობალური მოქმედების ხელმოწერის ავთენტიფიკაციის მეთოდი, რომელიც კონფიგურირებულია \"ზოგადი პარამეტრების\" ნაბიჯში"
+
+#: packages/ui/components/document/document-global-auth-action-select.tsx:95
+msgid "<0>No restrictions</0> - No authentication required"
+msgstr "<0>შეზღუდვების გარეშე</0> - ავთენტიფიკაცია არ არის საჭირო"
+
+#: packages/ui/components/document/document-global-auth-access-select.tsx:77
+msgid "<0>No restrictions</0> - The document can be accessed directly by the URL sent to the recipient"
+msgstr "<0>შეზღუდვების გარეშე</0> - დოკუმენტზე წვდომა შესაძლებელია პირდაპირ მიმღებისთვის გაგზავნილი URL-ით"
+
+#: packages/ui/components/recipient/recipient-action-auth-select.tsx:75
+msgid "<0>None</0> - No authentication required"
+msgstr "<0>არცერთი</0> - ავთენტიფიკაცია არ არის საჭირო"
+
+#: packages/ui/components/document/document-global-auth-action-select.tsx:89
+#: packages/ui/components/recipient/recipient-action-auth-select.tsx:69
+msgid "<0>Require 2FA</0> - The recipient must have an account and 2FA enabled via their settings"
+msgstr "<0>საჭიროა 2FA</0> - მიმღებს უნდა ჰქონდეს ანგარიში და პარამეტრებში ჩართული 2FA"
+
+#: packages/ui/components/document/document-global-auth-access-select.tsx:72
+msgid "<0>Require account</0> - The recipient must be signed in to view the document"
+msgstr "<0>საჭიროა ანგარიში</0> - მიმღები უნდა იყოს შესული სისტემაში დოკუმენტის სანახავად"
+
+#: packages/ui/components/document/document-global-auth-action-select.tsx:83
+#: packages/ui/components/recipient/recipient-action-auth-select.tsx:63
+msgid "<0>Require passkey</0> - The recipient must have an account and passkey configured via their settings"
+msgstr "<0>საჭიროა გასაღები</0> - მიმღებს უნდა ჰქონდეს ანგარიში და პარამეტრებში კონფიგურირებული გასაღები"
+
+#: packages/lib/jobs/definitions/emails/send-signing-email.ts:109
+msgid "A document was created by your direct template that requires you to {recipientActionVerb} it."
+msgstr "დოკუმენტი შექმნილია თქვენი უშუალო შაბლონიდან, რაც მოითხოვს, რომ თქვენ {recipientActionVerb} მას."
+
+#: packages/lib/utils/document-audit-logs.ts:262
+msgid "A field was added"
+msgstr "ველი დაემატა"
+
+#: packages/lib/utils/document-audit-logs.ts:266
+msgid "A field was removed"
+msgstr "ველი წაიშალა"
+
+#: packages/lib/utils/document-audit-logs.ts:270
+msgid "A field was updated"
+msgstr "ველი განახლდა"
+
+#: packages/lib/jobs/definitions/emails/send-team-member-joined-email.ts:90
+msgid "A new member has joined your team"
+msgstr "ახალი წევრი შეუერთდა თქვენს გუნდს"
+
+#: packages/lib/utils/document-audit-logs.ts:274
+msgid "A recipient was added"
+msgstr "მიმღები დაემატა"
+
+#: packages/lib/utils/document-audit-logs.ts:278
+msgid "A recipient was removed"
+msgstr "მიმღები წაიშალა"
+
+#: packages/lib/utils/document-audit-logs.ts:282
+msgid "A recipient was updated"
+msgstr "მიმღები განახლდა"
+
+#: packages/lib/server-only/team/create-team-email-verification.ts:142
+msgid "A request to use your email has been initiated by {teamName} on Documenso"
+msgstr "თქვენი ელ.ფოსტის გამოყენების მოთხოვნა ინიციირებულია {teamName}-ის მიერ Documenso-ზე"
+
+#: packages/email/templates/team-join.tsx:29
+msgid "A team member has joined a team on Documenso"
+msgstr "გუნდის წევრი შეუერთდა გუნდს Documenso-ზე"
+
+#: packages/lib/jobs/definitions/emails/send-team-member-left-email.ts:79
+msgid "A team member has left {0}"
+msgstr "გუნდის წევრმა დატოვა {0}"
+
+#: packages/email/templates/team-leave.tsx:29
+msgid "A team member has left a team on Documenso"
+msgstr "გუნდის წევრმა დატოვა გუნდი Documenso-ზე"
+
+#: packages/email/templates/team-delete.tsx:27
+#: packages/email/templates/team-delete.tsx:31
+msgid "A team you were a part of has been deleted"
+msgstr "გუნდი, რომლის წევრიც იყავით, წაიშალა"
+
+#: packages/email/templates/team-invite.tsx:77
+#: packages/email/templates/team-transfer-request.tsx:81
+msgid "Accept"
+msgstr "დაკმაყოფილება"
+
+#: packages/email/templates/team-invite.tsx:29
+msgid "Accept invitation to join a team on Documenso"
+msgstr "მიიღე მოწვევა, რათა შეუერთდე გუნდს Documenso-ზე"
+
+#: packages/email/templates/confirm-team-email.tsx:38
+msgid "Accept team email request for {teamName} on Documenso"
+msgstr "მიიღე ელ.ფოსტის მოთხოვნა გუნდისთვის {teamName} Documenso-ზე"
+
+#: packages/email/templates/team-transfer-request.tsx:29
+msgid "Accept team transfer request on Documenso"
+msgstr "მიიღე გუნდის გადაცემის მოთხოვნა Documenso-ზე"
+
+#: packages/ui/primitives/document-dropzone.tsx:69
+msgid "Add a document"
+msgstr "დოკუმენტის დამატება"
+
+#: packages/ui/primitives/document-flow/add-settings.tsx:378
+#: packages/ui/primitives/template-flow/add-template-settings.tsx:378
+msgid "Add a URL to redirect the user to once the document is signed"
+msgstr "დაამატეთ URL, რათა გადაამისამართოთ მომხმარებელი დოკუმენტის ხელმოწერის შემდეგ"
+
+#: packages/ui/primitives/document-flow/add-settings.tsx:290
+msgid "Add an external ID to the document. This can be used to identify the document in external systems."
+msgstr "დაამატეთ გარე ID დოკუმენტს. ეს შეიძლება გამოიყენოთ დოკუმენტის იდენტიფიცირებისთვის გარე სისტემებში."
+
+#: packages/ui/primitives/template-flow/add-template-settings.tsx:295
+msgid "Add an external ID to the template. This can be used to identify in external systems."
+msgstr "დაამატეთ გარე ID შაბლონს. ეს შეიძლება გამოყენებულ იქნეს იდენტიფიცირებისთვის გარე სისტემებში."
+
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/dropdown-field.tsx:187
+msgid "Add another option"
+msgstr "დაამატე სხვა ვარიანტი"
+
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/checkbox-field.tsx:232
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/radio-field.tsx:167
+msgid "Add another value"
+msgstr "დაამატე სხვა მნიშვნელობა"
+
+#: packages/ui/primitives/document-flow/add-signers.tsx:662
+msgid "Add myself"
+msgstr "დამამატე მე"
+
+#: packages/ui/primitives/template-flow/add-template-placeholder-recipients.tsx:637
+msgid "Add Myself"
+msgstr "დამამატე მე"
+
+#: packages/ui/primitives/template-flow/add-template-placeholder-recipients.tsx:623
+msgid "Add Placeholder Recipient"
+msgstr "დაამატე შაბლონური მიმღები"
+
+#: packages/ui/primitives/document-flow/add-signers.tsx:651
+msgid "Add Signer"
+msgstr "დაამატე ხელმომწერი"
+
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/text-field.tsx:73
+msgid "Add text"
+msgstr "დაამატე ტექსტი"
+
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/text-field.tsx:78
+msgid "Add text to the field"
+msgstr "დაამატე ტექსტი ველს"
+
+#: packages/lib/constants/teams.ts:10
+msgid "Admin"
+msgstr "ადმინი"
+
+#: packages/ui/primitives/document-flow/add-settings.tsx:272
+#: packages/ui/primitives/template-flow/add-template-settings.tsx:277
+msgid "Advanced Options"
+msgstr "გაფართოებული პარამეტრები"
+
+#: packages/ui/primitives/document-flow/add-fields.tsx:573
+#: packages/ui/primitives/template-flow/add-template-fields.tsx:406
+msgid "Advanced settings"
+msgstr "გაფართოებული პარამეტრები"
+
+#: packages/lib/constants/template.ts:21
+msgid "After submission, a document will be automatically generated and added to your documents page. You will also receive a notification via email."
+msgstr "გაგზავნის შემდეგ, დოკუმენტი ავტომატურად შეიქმნება და დაემატება თქვენს დოკუმენტების გვერდზე. თქვენ ასევე მიიღებთ შეტყობინებას ელ.ფოსტით."
+
+#: packages/email/template-components/template-document-cancel.tsx:31
+msgid "All signatures have been voided."
+msgstr "ყველა ხელმოწერა გაუქმებულია."
+
+#: packages/email/templates/document-super-delete.tsx:20
+msgid "An admin has deleted your document \"{documentName}\"."
+msgstr "ადმინისტრატორმა წაშალა თქვენი დოკუმენტი \"{documentName}\"."
+
+#: packages/ui/primitives/pdf-viewer.tsx:167
+msgid "An error occurred while loading the document."
+msgstr "დოკუმენტის ჩატვირთვისას წარმოიშვა შეცდომა."
+
+#: packages/lib/constants/recipient-roles.ts:8
+msgid "Approve"
+msgstr "დადასტურება"
+
+#: packages/lib/constants/recipient-roles.ts:68
+#~ msgid "APPROVE_REQUEST"
+#~ msgstr "მოთხოვნის დადასტურება"
+
+#: packages/lib/constants/recipient-roles.ts:9
+msgid "Approved"
+msgstr "დადასტურებულია"
+
+#: packages/lib/constants/recipient-roles.ts:11
+msgid "Approver"
+msgstr "დამადასტურებელი"
+
+#: packages/lib/constants/recipient-roles.ts:44
+msgid "Approvers"
+msgstr "დამადასტურებლები"
+
+#: packages/lib/constants/recipient-roles.ts:10
+msgid "Approving"
+msgstr "დადასტურება"
+
+#: packages/email/template-components/template-confirmation-email.tsx:28
+msgid "Before you get started, please confirm your email address by clicking the button below:"
+msgstr "სანამ დაიწყებთ, გთხოვთ დაადასტუროთ თქვენი ელ.ფოსტის მისამართი ქვემოთ მოცემულ ღილაკზე დაჭერით:"
+
+#: packages/ui/primitives/signature-pad/signature-pad.tsx:377
+msgid "Black"
+msgstr "შავი"
+
+#: packages/ui/primitives/signature-pad/signature-pad.tsx:391
+msgid "Blue"
+msgstr "ლურჯი"
+
+#: packages/email/templates/team-invite.tsx:67
+msgid "by <0>{senderName}</0>"
+msgstr "მიერ <0>{senderName}</0>"
+
+#: packages/email/templates/team-transfer-request.tsx:70
+msgid "By accepting this request, you will take responsibility for any billing items associated with this team."
+msgstr "ამ მოთხოვნის მიღებით, თქვენ იღებთ პასუხისმგებლობას ამ გუნდთან დაკავშირებულ ყველა ბილინგის პუნქტზე."
+
+#: packages/ui/primitives/document-flow/field-item-advanced-settings.tsx:356
+#: packages/ui/primitives/document-flow/send-document-action-dialog.tsx:58
+msgid "Cancel"
+msgstr "გაუქმება"
+
+#: packages/ui/primitives/document-flow/add-signers.tsx:193
+msgid "Cannot remove signer"
+msgstr "ხელმომწერის წაშლა შეუძლებელია"
+
+#: packages/lib/constants/recipient-roles.ts:17
+msgid "Cc"
+msgstr "Cc"
+
+#: packages/lib/constants/recipient-roles.ts:14
+#: packages/lib/constants/recipient-roles.ts:16
+msgid "CC"
+msgstr "CC"
+
+#: packages/lib/constants/recipient-roles.ts:15
+msgid "CC'd"
+msgstr "CC'd"
+
+#: packages/lib/constants/recipient-roles.ts:51
+msgid "Ccers"
+msgstr "Ccers"
+
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/text-field.tsx:86
+msgid "Character Limit"
+msgstr "სიმბოლოების შეზღუდვა"
+
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/checkbox-field.tsx:197
+msgid "Checkbox values"
+msgstr "ყუთების მნიშვნელობები"
+
+#: packages/ui/primitives/data-table.tsx:156
+msgid "Clear filters"
+msgstr "ფილტრების წაშლა"
+
+#: packages/ui/primitives/signature-pad/signature-pad.tsx:411
+msgid "Clear Signature"
+msgstr "ხელმოწერის წაშლა"
+
+#: packages/ui/primitives/document-flow/add-signature.tsx:394
+msgid "Click to insert field"
+msgstr "დააჭირეთ ველის ჩასართავად"
+
+#: packages/ui/primitives/document-flow/missing-signature-field-dialog.tsx:44
+msgid "Close"
+msgstr "დახურვა"
+
+#: packages/email/template-components/template-document-completed.tsx:35
+#: packages/email/template-components/template-document-self-signed.tsx:36
+#: packages/lib/constants/document.ts:10
+msgid "Completed"
+msgstr "შესრულებული"
+
+#: packages/email/templates/document-completed.tsx:21
+#: packages/email/templates/document-self-signed.tsx:17
+msgid "Completed Document"
+msgstr "დასრულებული დოკუმენტი"
+
+#: packages/lib/constants/template.ts:12
+msgid "Configure Direct Recipient"
+msgstr "პირდაპირი მიმღების კონფიგურაცია"
+
+#: packages/ui/primitives/document-flow/add-fields.tsx:574
+#: packages/ui/primitives/template-flow/add-template-fields.tsx:407
+msgid "Configure the {0} field"
+msgstr "{0} ველის კონფიგურაცია"
+
+#: packages/email/template-components/template-confirmation-email.tsx:38
+msgid "Confirm email"
+msgstr "ელფოსტის დადასტურება"
+
+#: packages/ui/primitives/document-flow/document-flow-root.tsx:141
+msgid "Continue"
+msgstr "გაგრძელება"
+
+#: packages/email/template-components/template-document-invite.tsx:66
+msgid "Continue by {0} the document."
+msgstr "გაგრძელება, დოკუმენტის {0}."
+
+#: packages/email/template-components/template-document-completed.tsx:45
+msgid "Continue by downloading the document."
+msgstr "გაგრძელება, დოკუმენტის ჩამოტვირთვით."
+
+#: packages/ui/components/document/document-share-button.tsx:46
+msgid "Copied to clipboard"
+msgstr "დააკოპირდა ბუფერში"
+
+#: packages/ui/components/document/document-share-button.tsx:194
+msgid "Copy Link"
+msgstr "ბმულის კოპირება"
+
+#: packages/email/template-components/template-document-self-signed.tsx:46
+msgid "Create a <0>free account</0> to access your signed documents at any time."
+msgstr "შექმენით <0>უფასო ანგარიში</0>, რომ შეძლოთ თქვენი ხელმოწერილი დოკუმენტების ხელმისაწვდომობა ნებისმიერ დროს."
+
+#: packages/email/template-components/template-document-self-signed.tsx:68
+msgid "Create account"
+msgstr "ანგარიშის შექმნა"
+
+#: packages/ui/primitives/document-flow/add-signature.tsx:360
+msgid "Custom Text"
+msgstr "მომხმარებლის ტექსტი"
+
+#: packages/ui/primitives/document-flow/add-fields.tsx:927
+#: packages/ui/primitives/document-flow/types.ts:53
+#: packages/ui/primitives/template-flow/add-template-fields.tsx:690
+msgid "Date"
+msgstr "თარიღი"
+
+#: packages/ui/primitives/document-flow/add-settings.tsx:313
+#: packages/ui/primitives/template-flow/add-template-settings.tsx:318
+msgid "Date Format"
+msgstr "თარიღის ფორმატი"
+
+#: packages/email/templates/team-invite.tsx:83
+msgid "Decline"
+msgstr "უარის თქმა"
+
+#: packages/email/templates/reset-password.tsx:65
+msgid "Didn't request a password change? We are here to help you secure your account, just <0>contact us.</0>"
+msgstr "პაროლის შეცვლა არ მოგითხოვია? ჩვენ დაგეხმარებით თქვენი ანგარიშის უსაფრთხოებაში, უბრალოდ დაგვიკავშირდით <0>აქ</0>."
+
+#: packages/ui/primitives/template-flow/add-template-placeholder-recipients.tsx:570
+msgid "Direct link receiver"
+msgstr "პირდაპირი ბმულის მიმღები"
+
+#: packages/ui/components/document/document-global-auth-access-select.tsx:62
+#: packages/ui/primitives/document-flow/add-settings.tsx:216
+#: packages/ui/primitives/template-flow/add-template-settings.tsx:190
+msgid "Document access"
+msgstr "დოკუმენტის წვდომა"
+
+#: packages/lib/utils/document-audit-logs.ts:306
+msgid "Document access auth updated"
+msgstr "დოკუმენტის წვდომის ავტორიზაცია განახლებულია"
+
+#: packages/lib/server-only/document/delete-document.ts:213
+#: packages/lib/server-only/document/super-delete-document.ts:75
+msgid "Document Cancelled"
+msgstr "დოკუმენტი გაუქმებულია"
+
+#: packages/lib/utils/document-audit-logs.ts:359
+#: packages/lib/utils/document-audit-logs.ts:360
+msgid "Document completed"
+msgstr "დოკუმენტი დასრულებულია"
+
+#: packages/lib/utils/document-audit-logs.ts:286
+msgid "Document created"
+msgstr "დოკუმენტი შექმნილია"
+
+#: packages/email/templates/document-created-from-direct-template.tsx:30
+#: packages/lib/server-only/template/create-document-from-direct-template.ts:554
+msgid "Document created from direct template"
+msgstr "დოკუმენტი შექმნილია პირდაპირი შაბლონიდან"
+
+#: packages/lib/constants/template.ts:20
+msgid "Document Creation"
+msgstr "დოკუმენტის შექმნა"
+
+#: packages/lib/utils/document-audit-logs.ts:290
+msgid "Document deleted"
+msgstr "დოკუმენტი წაშლილია"
+
+#: packages/lib/server-only/document/send-delete-email.ts:58
+msgid "Document Deleted!"
+msgstr "დოკუმენტი წაშლილია!"
+
+#: packages/lib/utils/document-audit-logs.ts:326
+msgid "Document external ID updated"
+msgstr "დოკუმენტის გარე ID განახლებულია"
+
+#: packages/lib/utils/document-audit-logs.ts:334
+msgid "Document moved to team"
+msgstr "დოკუმენტი გადატანილია გუნდში"
+
+#: packages/lib/utils/document-audit-logs.ts:318
+msgid "Document opened"
+msgstr "დოკუმენტი გახსნილია"
+
+#: packages/lib/utils/document-audit-logs.ts:330
+msgid "Document sent"
+msgstr "დოკუმენტი გაგზავნილია"
+
+#: packages/lib/utils/document-audit-logs.ts:310
+msgid "Document signing auth updated"
+msgstr "დოკუმენტის ხელმოწერის ავტორიზაცია განახლებულია"
+
+#: packages/lib/utils/document-audit-logs.ts:322
+msgid "Document title updated"
+msgstr "დოკუმენტის სათაური განახლებულია"
+
+#: packages/lib/utils/document-audit-logs.ts:314
+msgid "Document updated"
+msgstr "დოკუმენტი განახლებულია"
+
+#: packages/lib/utils/document-audit-logs.ts:302
+msgid "Document visibility updated"
+msgstr "დოკუმენტის ხილვადობა განახლებულია"
+
+#: packages/email/template-components/template-document-completed.tsx:64
+#: packages/ui/components/document/document-download-button.tsx:68
+msgid "Download"
+msgstr "ჩამოტვირთვა"
+
+#: packages/lib/constants/document.ts:13
+msgid "Draft"
+msgstr "დრაფტები"
+
+#: packages/ui/primitives/document-dropzone.tsx:162
+msgid "Drag & drop your PDF here."
+msgstr "ჩააგდე შენი PDF ფაილი აქ."
+
+#: packages/ui/primitives/document-flow/add-fields.tsx:1058
+#: packages/ui/primitives/template-flow/add-template-fields.tsx:820
+msgid "Dropdown"
+msgstr "Dropdown"
+
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/dropdown-field.tsx:158
+msgid "Dropdown options"
+msgstr "Dropdown-ის პარამეტრები"
+
+#: packages/ui/primitives/document-flow/add-fields.tsx:875
+#: packages/ui/primitives/document-flow/add-signature.tsx:272
+#: packages/ui/primitives/document-flow/add-signers.tsx:500
+#: packages/ui/primitives/document-flow/add-signers.tsx:507
+#: packages/ui/primitives/document-flow/types.ts:54
+#: packages/ui/primitives/template-flow/add-template-fields.tsx:638
+#: packages/ui/primitives/template-flow/add-template-placeholder-recipients.tsx:463
+#: packages/ui/primitives/template-flow/add-template-placeholder-recipients.tsx:470
+msgid "Email"
+msgstr "E-Mail"
+
+#: packages/ui/primitives/document-flow/add-signature.types.ts:7
+msgid "Email is required"
+msgstr "ელფოსტის შეყვანა აუცილებელია"
+
+#: packages/ui/primitives/template-flow/add-template-settings.tsx:223
+msgid "Email Options"
+msgstr "ელფოსტის პარამეტრები"
+
+#: packages/lib/utils/document-audit-logs.ts:353
+msgid "Email resent"
+msgstr "ელფოსტა თავიდან გაიგზავნა"
+
+#: packages/lib/utils/document-audit-logs.ts:353
+msgid "Email sent"
+msgstr "ელფოსტა გაიგზავნა"
+
+#: packages/ui/primitives/document-flow/add-fields.tsx:1123
+msgid "Empty field"
+msgstr "ცარიელი ველი"
+
+#: packages/lib/constants/template.ts:8
+msgid "Enable Direct Link Signing"
+msgstr "გააქტიურეთ პირდაპირი ბმულის ხელმოწერა"
+
+#: packages/ui/primitives/document-flow/add-signers.tsx:401
+#: packages/ui/primitives/template-flow/add-template-placeholder-recipients.tsx:362
+msgid "Enable signing order"
+msgstr "გააქტიურეთ ხელმოწერის თანმიმდევრობა"
+
+#: packages/ui/primitives/document-flow/add-fields.tsx:795
+msgid "Enable Typed Signatures"
+msgstr "გააქტიურეთ აკრეფილი ხელმოწერები"
+
+#: packages/ui/primitives/document-password-dialog.tsx:84
+msgid "Enter password"
+msgstr "შეიყვანეთ პაროლი"
+
+#: packages/ui/primitives/document-flow/field-item-advanced-settings.tsx:257
+#: packages/ui/primitives/pdf-viewer.tsx:166
+msgid "Error"
+msgstr "შეცდომა"
+
+#: packages/ui/primitives/document-flow/add-settings.tsx:283
+#: packages/ui/primitives/template-flow/add-template-settings.tsx:288
+msgid "External ID"
+msgstr "გარე ID"
+
+#: packages/ui/primitives/document-flow/field-item-advanced-settings.tsx:258
+msgid "Failed to save settings."
+msgstr "პარამეტრების შენახვა ვერ მოხერხდა."
+
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/text-field.tsx:93
+msgid "Field character limit"
+msgstr "ველის სიმბოლოების შეზღუდვა"
+
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/date-field.tsx:62
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/email-field.tsx:44
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/initials-field.tsx:44
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/name-field.tsx:44
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/number-field.tsx:130
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/text-field.tsx:107
+msgid "Field font size"
+msgstr "ველის შრიფტის ზომა"
+
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/number-field.tsx:110
+msgid "Field format"
+msgstr "ველის ფორმატი"
+
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/text-field.tsx:53
+msgid "Field label"
+msgstr "ველის ეტიკეტი"
+
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/text-field.tsx:65
+msgid "Field placeholder"
+msgstr "ველის შაბლონი"
+
+#: packages/lib/utils/document-audit-logs.ts:294
+msgid "Field signed"
+msgstr "ველი ხელმოწერილია"
+
+#: packages/lib/utils/document-audit-logs.ts:298
+msgid "Field unsigned"
+msgstr "ველი ხელმოუწერელია"
+
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/date-field.tsx:56
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/email-field.tsx:38
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/initials-field.tsx:38
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/name-field.tsx:38
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/number-field.tsx:124
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/text-field.tsx:101
+msgid "Font Size"
+msgstr "შრიფტის ზომა"
+
+#: packages/lib/server-only/auth/send-forgot-password.ts:61
+msgid "Forgot Password?"
+msgstr "დაგავიწყდა პაროლი?"
+
+#: packages/email/template-components/template-forgot-password.tsx:21
+msgid "Forgot your password?"
+msgstr "დაგავიწყდა პაროლი?"
+
+#: packages/ui/primitives/document-flow/types.ts:50
+msgid "Free Signature"
+msgstr "თავისუფალი ხელმოწერა"
+
+#: packages/ui/components/document/document-global-auth-action-select.tsx:64
+msgid "Global recipient action authentication"
+msgstr "გლობალური მიმღების მოქმედების ავტორიზაცია"
+
+#: packages/ui/primitives/document-flow/document-flow-root.tsx:142
+msgid "Go Back"
+msgstr "უკან დაბრუნება"
+
+#: packages/ui/primitives/signature-pad/signature-pad.tsx:398
+msgid "Green"
+msgstr "მწვანე"
+
+#: packages/email/templates/reset-password.tsx:50
+msgid "Hi, {userName} <0>({userEmail})</0>"
+msgstr "გამარჯობა, {userName} <0>({userEmail})</0>"
+
+#: packages/lib/constants/recipient-roles.ts:76
+msgid "I am a signer of this document"
+msgstr "მე ვარ ამ დოკუმენტის ხელმომწერი"
+
+#: packages/lib/constants/recipient-roles.ts:79
+msgid "I am a viewer of this document"
+msgstr "მე ვარ ამ დოკუმენტის მაყურებელი"
+
+#: packages/lib/constants/recipient-roles.ts:77
+msgid "I am an approver of this document"
+msgstr "მე ვარ ამ დოკუმენტის დამამტკიცებელი"
+
+#: packages/lib/constants/recipient-roles.ts:78
+msgid "I am required to receive a copy of this document"
+msgstr "მე უნდა მივიღო ამ დოკუმენტის ასლი"
+
+#: packages/ui/components/recipient/recipient-action-auth-select.tsx:29
+#: packages/ui/components/recipient/recipient-action-auth-select.tsx:87
+msgid "Inherit authentication method"
+msgstr "ავტორიზაციის მეთოდის მემკვიდრეობა"
+
+#: packages/ui/primitives/document-flow/types.ts:51
+msgid "Initials"
+msgstr "ინიციალები"
+
+#: packages/ui/primitives/document-flow/add-signers.types.ts:17
+msgid "Invalid email"
+msgstr "არასწორი ელფოსტა"
+
+#: packages/ui/primitives/document-flow/add-signature.types.ts:8
+msgid "Invalid email address"
+msgstr "არასწორი ელფოსტის მისამართი"
+
+#: packages/email/templates/team-invite.tsx:55
+msgid "Join {teamName} on Documenso"
+msgstr "შეუერთდი {teamName}-ს Documenso-ზე"
+
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/number-field.tsx:67
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/number-field.tsx:72
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/text-field.tsx:48
+msgid "Label"
+msgstr "ლეიბლი"
+
+#: packages/ui/primitives/document-flow/add-settings.tsx:176
+#: packages/ui/primitives/template-flow/add-template-settings.tsx:150
+msgid "Language"
+msgstr "ენა"
+
+#: packages/email/templates/team-transfer-request.tsx:87
+msgid "Link expires in 1 hour."
+msgstr "ბმული 1 საათში იწურება."
+
+#: packages/ui/primitives/lazy-pdf-viewer.tsx:15
+#: packages/ui/primitives/pdf-viewer.tsx:44
+msgid "Loading document..."
+msgstr "დოკუმენტის ჩატვირთვა..."
+
+#: packages/lib/constants/teams.ts:11
+msgid "Manager"
+msgstr "მენეჯერი"
+
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/number-field.tsx:188
+msgid "Max"
+msgstr "მაქს"
+
+#: packages/lib/constants/teams.ts:12
+msgid "Member"
+msgstr "წევრი"
+
+#: packages/ui/primitives/document-flow/add-subject.tsx:95
+#: packages/ui/primitives/template-flow/add-template-settings.tsx:254
+msgid "Message <0>(Optional)</0>"
+msgstr "მესიჯი <0>(არასავალდებულო)</0>"
+
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/number-field.tsx:176
+msgid "Min"
+msgstr "მინ"
+
+#: packages/ui/primitives/document-flow/add-fields.tsx:901
+#: packages/ui/primitives/document-flow/add-signature.tsx:298
+#: packages/ui/primitives/document-flow/add-signers.tsx:535
+#: packages/ui/primitives/document-flow/add-signers.tsx:541
+#: packages/ui/primitives/document-flow/types.ts:55
+#: packages/ui/primitives/template-flow/add-template-fields.tsx:664
+#: packages/ui/primitives/template-flow/add-template-placeholder-recipients.tsx:498
+#: packages/ui/primitives/template-flow/add-template-placeholder-recipients.tsx:504
+msgid "Name"
+msgstr "სახელი"
+
+#: packages/ui/components/recipient/recipient-role-select.tsx:52
+msgid "Needs to approve"
+msgstr "უნდა დაამტკიცოს"
+
+#: packages/ui/components/recipient/recipient-role-select.tsx:31
+msgid "Needs to sign"
+msgstr "უნდა მოაწეროს ხელი"
+
+#: packages/ui/components/recipient/recipient-role-select.tsx:73
+msgid "Needs to view"
+msgstr "უნდა ნახოს"
+
+#: packages/ui/primitives/document-flow/add-fields.tsx:686
+#: packages/ui/primitives/template-flow/add-template-fields.tsx:504
+msgid "No recipient matching this description was found."
+msgstr "ამ აღწერილობას შესაბამისი მიმღები ვერ მოიძებნა."
+
+#: packages/ui/primitives/document-flow/add-fields.tsx:701
+#: packages/ui/primitives/template-flow/add-template-fields.tsx:519
+msgid "No recipients with this role"
+msgstr "ამ როლით მიმღები არ არსებობს"
+
+#: packages/ui/components/document/document-global-auth-access-select.tsx:30
+#: packages/ui/components/document/document-global-auth-access-select.tsx:43
+#: packages/ui/components/document/document-global-auth-action-select.tsx:31
+#: packages/ui/components/document/document-global-auth-action-select.tsx:46
+msgid "No restrictions"
+msgstr "შეზღუდვები არ არის"
+
+#: packages/ui/primitives/data-table.tsx:148
+msgid "No results found"
+msgstr "შედეგები ვერ მოიძებნა"
+
+#: packages/ui/primitives/document-flow/missing-signature-field-dialog.tsx:30
+msgid "No signature field found"
+msgstr "ხელმოწერის ველი ვერ მოიძებნა"
+
+#: packages/ui/primitives/combobox.tsx:60
+#: packages/ui/primitives/multi-select-combobox.tsx:153
+msgid "No value found."
+msgstr "მნიშვნელობა ვერ მოიძებნა."
+
+#: packages/ui/primitives/document-flow/add-fields.tsx:979
+#: packages/ui/primitives/document-flow/types.ts:56
+#: packages/ui/primitives/template-flow/add-template-fields.tsx:742
+msgid "Number"
+msgstr "ნომერი"
+
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/number-field.tsx:103
+msgid "Number format"
+msgstr "ნომრის ფორმატი"
+
+#: packages/lib/constants/template.ts:9
+msgid "Once enabled, you can select any active recipient to be a direct link signing recipient, or create a new one. This recipient type cannot be edited or deleted."
+msgstr "ერთხელ გააქტიურების შემდეგ, შეგიძლიათ აირჩიოთ ნებისმიერი აქტიური მიმღები პირდაპირი ბმულის ხელმოწერისთვის ან შექმნათ ახალი. ამ ტიპის მიმღები ვერ ჩასწორდება ან წაიშლება."
+
+#: packages/lib/constants/template.ts:17
+msgid "Once your template is set up, share the link anywhere you want. The person who opens the link will be able to enter their information in the direct link recipient field and complete any other fields assigned to them."
+msgstr "შაბლონის შექმნის შემდეგ, გააზიარეთ ბმული ნებისმიერ ადგილას. ვინც ბმულს გახსნის, შეუძლია შეიყვანოს თავისი ინფორმაცია პირდაპირი ბმულის მიმღების ველში და შეავსოს სხვა მისთვის მინიჭებული ველები."
+
+#: packages/ui/primitives/data-table-pagination.tsx:77
+msgid "Page {0} of {1}"
+msgstr "გვერდი {0} / {1}"
+
+#: packages/ui/primitives/pdf-viewer.tsx:259
+msgid "Page {0} of {numPages}"
+msgstr "გვერდი {0} / {numPages}"
+
+#: packages/ui/primitives/document-password-dialog.tsx:62
+msgid "Password Required"
+msgstr "საჭიროა პაროლი"
+
+#: packages/email/templates/forgot-password.tsx:17
+msgid "Password Reset Requested"
+msgstr "მოთხოვნილია პაროლის აღდგენა"
+
+#: packages/email/templates/reset-password.tsx:18
+msgid "Password Reset Successful"
+msgstr "პაროლი წარმატებით აღდგა"
+
+#: packages/email/template-components/template-reset-password.tsx:22
+msgid "Password updated!"
+msgstr "პაროლი განახლდა!"
+
+#: packages/lib/constants/document.ts:16
+msgid "Pending"
+msgstr "მიმდინარე"
+
+#: packages/email/templates/document-pending.tsx:17
+msgid "Pending Document"
+msgstr "მიმდინარე დოკუმენტი"
+
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/checkbox-field.tsx:156
+msgid "Pick a number"
+msgstr "აირჩიეთ რიცხვი"
+
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/number-field.tsx:79
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/number-field.tsx:84
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/text-field.tsx:60
+msgid "Placeholder"
+msgstr "შაბლონი"
+
+#: packages/email/template-components/template-document-invite.tsx:43
+msgid "Please {0} your document<0/>\"{documentName}\""
+msgstr "გთხოვთ, {0} თქვენი დოკუმენტი<0/>\"{documentName}\""
+
+#: packages/email/templates/document-invite.tsx:38
+msgid "Please {action} your document {documentName}"
+msgstr "გთხოვთ, {action} თქვენი დოკუმენტი {documentName}"
+
+#: packages/lib/jobs/definitions/emails/send-signing-email.ts:98
+msgid "Please {recipientActionVerb} this document"
+msgstr "გთხოვთ, {recipientActionVerb} ეს დოკუმენტი"
+
+#: packages/lib/jobs/definitions/emails/send-signing-email.ts:112
+msgid "Please {recipientActionVerb} this document created by your direct template"
+msgstr "გთხოვთ, {recipientActionVerb} ეს დოკუმენტი, რომელიც თქვენს პირდაპირ შაბლონზეა შექმნილი"
+
+#: packages/lib/jobs/definitions/emails/send-signing-email.ts:104
+msgid "Please {recipientActionVerb} your document"
+msgstr "გთხოვთ, {recipientActionVerb} თქვენი დოკუმენტი"
+
+#: packages/lib/server-only/auth/send-confirmation-email.ts:67
+msgid "Please confirm your email"
+msgstr "გთხოვთ, დაადასტუროთ თქვენი ელფოსტა"
+
+#: packages/email/templates/confirm-email.tsx:15
+msgid "Please confirm your email address"
+msgstr "გთხოვთ, დაადასტუროთ თქვენი ელფოსტის მისამართი"
+
+#: packages/ui/primitives/pdf-viewer.tsx:223
+#: packages/ui/primitives/pdf-viewer.tsx:238
+msgid "Please try again or contact our support."
+msgstr "გთხოვთ, სცადოთ თავიდან ან დაუკავშირდეთ ჩვენს მხარდაჭერას."
+
+#: packages/ui/primitives/template-flow/add-template-fields.tsx:768
+msgid "Radio"
+msgstr "რადიო"
+
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/radio-field.tsx:133
+msgid "Radio values"
+msgstr "რადიო მნიშვნელობები"
+
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/checkbox-field.tsx:186
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/dropdown-field.tsx:147
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/number-field.tsx:156
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/radio-field.tsx:122
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/text-field.tsx:133
+msgid "Read only"
+msgstr "მხოლოდ სანახავად"
+
+#: packages/ui/components/recipient/recipient-role-select.tsx:95
+msgid "Receives copy"
+msgstr "მიიღებს ასლს"
+
+#: packages/lib/utils/document-audit-logs.ts:338
+msgid "Recipient"
+msgstr "მიმღები"
+
+#: packages/ui/components/recipient/recipient-action-auth-select.tsx:39
+#: packages/ui/primitives/document-flow/add-settings.tsx:257
+#: packages/ui/primitives/template-flow/add-template-settings.tsx:208
+msgid "Recipient action authentication"
+msgstr "მიმღების მოქმედების ავტორიზაცია"
+
+#: packages/ui/primitives/signature-pad/signature-pad.tsx:384
+msgid "Red"
+msgstr "წითელი"
+
+#: packages/ui/primitives/document-flow/add-settings.tsx:371
+#: packages/ui/primitives/template-flow/add-template-settings.tsx:371
+msgid "Redirect URL"
+msgstr "გადამისამართების URL"
+
+#: packages/lib/server-only/document/resend-document.tsx:165
+msgid "Reminder: {0}"
+msgstr "შეხსენება: {0}"
+
+#: packages/lib/server-only/document/resend-document.tsx:118
+msgid "Reminder: {0} invited you to {recipientActionVerb} a document"
+msgstr "შეხსენება: {0}-მა მოგიწვიათ, დოკუმენტი {recipientActionVerb}"
+
+#: packages/lib/server-only/document/resend-document.tsx:110
+msgid "Reminder: Please {recipientActionVerb} this document"
+msgstr "შეხსენება: გთხოვთ {recipientActionVerb} ეს დოკუმენტი"
+
+#: packages/lib/server-only/document/resend-document.tsx:114
+msgid "Reminder: Please {recipientActionVerb} your document"
+msgstr "შეხსენება: გთხოვთ {recipientActionVerb} თქვენი დოკუმენტი"
+
+#: packages/ui/primitives/document-flow/add-fields.tsx:1110
+msgid "Remove"
+msgstr "წაშლა"
+
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/checkbox-field.tsx:176
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/dropdown-field.tsx:137
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/number-field.tsx:146
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/radio-field.tsx:112
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/text-field.tsx:123
+msgid "Required field"
+msgstr "აუცილებელი ველი"
+
+#: packages/email/template-components/template-forgot-password.tsx:33
+msgid "Reset Password"
+msgstr "პაროლის აღდგენა"
+
+#: packages/ui/components/document/document-share-button.tsx:147
+msgid "Rest assured, your document is strictly confidential and will never be shared. Only your signing experience will be highlighted. Share your personalized signing card to showcase your signature!"
+msgstr "დარწმუნებული იყავით, თქვენი დოკუმენტი მკაცრად კონფიდენციალურია და არასდროს გასაჯაროვდება. მხოლოდ თქვენი ხელმოწერის გამოცდილება გამოიკვეთება. გაუზიარეთ თქვენი პერსონალიზებული ხელმოწერის ბარათი, რომ წარმოაჩინოთ თქვენი ხელმოწერა!"
+
+#: packages/ui/primitives/data-table-pagination.tsx:55
+msgid "Rows per page"
+msgstr "სტრიქონები გვერდზე"
+
+#: packages/ui/primitives/document-flow/field-item-advanced-settings.tsx:355
+msgid "Save"
+msgstr "შენახვა"
+
+#: packages/ui/primitives/template-flow/add-template-fields.tsx:854
+msgid "Save Template"
+msgstr "შაბლონის შენახვა"
+
+#: packages/ui/components/common/language-switcher-dialog.tsx:34
+msgid "Search languages..."
+msgstr "ენის ძიება..."
+
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/dropdown-field.tsx:115
+msgid "Select"
+msgstr "არჩევა"
+
+#: packages/ui/primitives/combobox.tsx:38
+msgid "Select an option"
+msgstr "აირჩიეთ ვარიანტი"
+
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/checkbox-field.tsx:139
+msgid "Select at least"
+msgstr "აირჩიეთ მინიმუმ"
+
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/dropdown-field.tsx:105
+msgid "Select default option"
+msgstr "აირჩიეთ ნაგულისხმევი ვარიანტი"
+
+#: packages/ui/primitives/document-flow/add-subject.tsx:124
+#: packages/ui/primitives/document-flow/send-document-action-dialog.tsx:34
+#: packages/ui/primitives/document-flow/send-document-action-dialog.tsx:64
+msgid "Send"
+msgstr "გაგზავნა"
+
+#: packages/ui/primitives/document-flow/send-document-action-dialog.tsx:41
+msgid "Send Document"
+msgstr "დოკუმენტის გაგზავნა"
+
+#: packages/ui/components/document/document-share-button.tsx:135
+msgid "Share Signature Card"
+msgstr "გააზიარეთ ხელმოწერის ბარათი"
+
+#: packages/lib/constants/template.ts:16
+msgid "Share the Link"
+msgstr "ბმულის გაზიარება"
+
+#: packages/ui/components/document/document-share-button.tsx:143
+msgid "Share your signing experience!"
+msgstr "გააზიარეთ თქვენი ხელმოწერის გამოცდილება!"
+
+#: packages/ui/primitives/document-flow/add-signers.tsx:680
+#: packages/ui/primitives/template-flow/add-template-placeholder-recipients.tsx:655
+msgid "Show advanced settings"
+msgstr "აჩვენე დამატებითი პარამეტრები"
+
+#: packages/lib/constants/recipient-roles.ts:20
+msgid "Sign"
+msgstr "ხელმოწერა"
+
+#: packages/email/template-components/template-reset-password.tsx:34
+msgid "Sign In"
+msgstr "შესვლა"
+
+#: packages/ui/primitives/document-flow/add-fields.tsx:823
+#: packages/ui/primitives/document-flow/add-signature.tsx:323
+#: packages/ui/primitives/document-flow/field-icon.tsx:52
+#: packages/ui/primitives/document-flow/types.ts:49
+#: packages/ui/primitives/template-flow/add-template-fields.tsx:586
+msgid "Signature"
+msgstr "ხელმოწერა"
+
+#: packages/lib/constants/recipient-roles.ts:21
+msgid "Signed"
+msgstr "ხელმოწერილი"
+
+#: packages/lib/constants/recipient-roles.ts:23
+msgid "Signer"
+msgstr "ხელმომწერი"
+
+#: packages/lib/constants/recipient-roles.ts:58
+msgid "Signers"
+msgstr "ხელმომწერები"
+
+#: packages/ui/primitives/document-flow/add-signers.types.ts:36
+msgid "Signers must have unique emails"
+msgstr "ხელმომწერებს უნიკალური ელფოსტა უნდა ჰქონდეთ"
+
+#: packages/lib/constants/recipient-roles.ts:22
+msgid "Signing"
+msgstr "ხელმოწერა"
+
+#: packages/lib/server-only/document/send-completed-email.ts:93
+#: packages/lib/server-only/document/send-completed-email.ts:161
+msgid "Signing Complete!"
+msgstr "ხელმოწერა დასრულებულია!"
+
+#: packages/lib/constants/recipient-roles.ts:66
+#~ msgid "SIGNING_REQUEST"
+#~ msgstr "SIGNING_REQUEST"
+
+#: packages/ui/primitives/document-flow/missing-signature-field-dialog.tsx:34
+msgid "Some signers have not been assigned a signature field. Please assign at least 1 signature field to each signer before proceeding."
+msgstr "ზოგიერთ ხელმომწერს არ აქვს მინიჭებული ხელმოწერის ველი. გთხოვთ, მინიმუმ ერთი ხელმოწერის ველი მიანიჭოთ თითოეულ ხელმომწერს, სანამ გაგრძელებას მოახდენთ."
+
+#: packages/ui/components/document/document-share-button.tsx:51
+msgid "Something went wrong"
+msgstr "რაღაც შეცდომა მოხდა"
+
+#: packages/ui/primitives/pdf-viewer.tsx:220
+#: packages/ui/primitives/pdf-viewer.tsx:235
+msgid "Something went wrong while loading the document."
+msgstr "დოკუმენტის ჩატვირთვისას შეცდომა მოხდა."
+
+#: packages/ui/primitives/data-table.tsx:136
+msgid "Something went wrong."
+msgstr "რაღაც შეცდომა მოხდა."
+
+#: packages/ui/primitives/document-flow/document-flow-root.tsx:107
+msgid "Step <0>{step} of {maxStep}</0>"
+msgstr "ეტაპი <0>{step} დან {maxStep}</0>"
+
+#: packages/ui/primitives/document-flow/add-subject.tsx:78
+#: packages/ui/primitives/template-flow/add-template-settings.tsx:234
+msgid "Subject <0>(Optional)</0>"
+msgstr "საგანი <0>(არჩევითი)</0>"
+
+#: packages/ui/primitives/document-password-dialog.tsx:97
+msgid "Submit"
+msgstr "დადასტურება"
+
+#: packages/lib/server-only/team/delete-team-email.ts:96
+msgid "Team email has been revoked for {0}"
+msgstr "გუნდური ელფოსტა გაუქმებულია {0}-ისთვის"
+
+#: packages/email/templates/team-email-removed.tsx:53
+msgid "Team email removed"
+msgstr "გუნდური ელფოსტა წაიშალა"
+
+#: packages/email/templates/team-email-removed.tsx:27
+msgid "Team email removed for {teamName} on Documenso"
+msgstr "გუნდური ელფოსტა წაიშალა {teamName}-ისთვის Documenso-ზე"
+
+#: packages/ui/primitives/template-flow/add-template-settings.tsx:133
+msgid "Template title"
+msgstr "შაბლონის სათაური"
+
+#: packages/ui/primitives/document-flow/add-fields.tsx:953
+#: packages/ui/primitives/document-flow/types.ts:52
+#: packages/ui/primitives/template-flow/add-template-fields.tsx:716
+msgid "Text"
+msgstr "ტექსტი"
+
+#: packages/email/template-components/template-forgot-password.tsx:25
+msgid "That's okay, it happens! Click the button below to reset your password."
+msgstr "ეს ჩვეულებრივი მოვლენაა, ხდება! დააჭირეთ ქვემოთ მოცემულ ღილაკს თქვენი პაროლის გასაახლგაზრდად."
+
+#: packages/ui/components/recipient/recipient-action-auth-select.tsx:44
+msgid "The authentication required for recipients to sign fields"
+msgstr "ავტორიზაცია, რომელიც საჭიროა მიმღებებისათვის, რათა მოაწერონ ხელი ველებზე"
+
+#: packages/ui/components/document/document-global-auth-action-select.tsx:68
+msgid "The authentication required for recipients to sign the signature field."
+msgstr "ავტორიზაცია, რომელიც საჭიროა მიმღებებისათვის, რათა მოაწერონ ხელი ხელმოწერის ველზე."
+
+#: packages/ui/components/document/document-global-auth-access-select.tsx:67
+msgid "The authentication required for recipients to view the document."
+msgstr "ავტორიზაცია, რომელიც საჭიროა მიმღებებისათვის, რათა ნახონ დოკუმენტი."
+
+#: packages/ui/components/document/document-send-email-message-helper.tsx:31
+msgid "The document's name"
+msgstr "დოკუმენტის სახელი"
+
+#: packages/email/templates/team-delete.tsx:35
+msgid "The following team has been deleted by its owner. You will no longer be able to access this team and its documents"
+msgstr "გახსნილია შემდეგი გუნდი მისი მფლობელის მიერ. თქვენ აღარ შეგეძლებათ ამ გუნდისა და მისი დოკუმენტების წვდომა"
+
+#: packages/email/templates/team-delete.tsx:34
+msgid "The following team has been deleted by you"
+msgstr "თქვენ მიერ წაიშალა შემდეგი გუნდი"
+
+#: packages/ui/primitives/document-password-dialog.tsx:52
+msgid "The password you have entered is incorrect. Please try again."
+msgstr "შეიყვანეთ არასწორი პაროლი. გთხოვთ, სცადეთ ხელახლა."
+
+#: packages/email/template-components/template-document-super-delete.tsx:38
+msgid "The reason provided for deletion is the following:"
+msgstr "წაშლისთვის მოცემული მიზეზი შემდეგია:"
+
+#: packages/ui/components/recipient/recipient-role-select.tsx:103
+msgid "The recipient is not required to take any action and receives a copy of the document after it is completed."
+msgstr "მიმღებს არ სჭირდება რაიმე ქმედების განხორციელება და მიიღებს დოკუმენტის ასალს მისი დასრულების შემდეგ."
+
+#: packages/ui/components/recipient/recipient-role-select.tsx:60
+msgid "The recipient is required to approve the document for it to be completed."
+msgstr "მიმღებს სჭირდება დოკუმენტის დამტკიცება მისი დასრულებისათვის."
+
+#: packages/ui/components/recipient/recipient-role-select.tsx:39
+msgid "The recipient is required to sign the document for it to be completed."
+msgstr "მიმღებს სჭირდება დოკუმენტის ხელმოწერა მისი დასრულებისათვის."
+
+#: packages/ui/components/recipient/recipient-role-select.tsx:81
+msgid "The recipient is required to view the document for it to be completed."
+msgstr "მიმღებს სჭირდება დოკუმენტის ნახვა მისი დასრულებისათვის."
+
+#: packages/ui/components/document/document-share-button.tsx:52
+msgid "The sharing link could not be created at this time. Please try again."
+msgstr "ამჟამად ვერ შექმნა გაზიარების ბმული. გთხოვთ, სცადეთ ხელახლა."
+
+#: packages/ui/components/document/document-share-button.tsx:47
+msgid "The sharing link has been copied to your clipboard."
+msgstr "გაზიარების ბმული დაიკოპირა თქვენს საკლიპტოში."
+
+#: packages/ui/components/document/document-send-email-message-helper.tsx:25
+msgid "The signer's email"
+msgstr "ხელმომწერის ელ.ფოსტა"
+
+#: packages/ui/components/document/document-send-email-message-helper.tsx:19
+msgid "The signer's name"
+msgstr "ხელმომწერის სახელი"
+
+#: packages/email/templates/team-email-removed.tsx:57
+msgid "The team email <0>{teamEmail}</0> has been removed from the following team"
+msgstr "გუნდის ელ.ფოსტა <0>{teamEmail}</0> წაიშალა შემდეგი გუნდისგან"
+
+#: packages/ui/components/document/document-global-auth-action-select.tsx:72
+msgid "This can be overriden by setting the authentication requirements directly on each recipient in the next step."
+msgstr "ეს შეიძლება დააკომპლექტოთ, განსაზღვროთ ავტორიზაციის მოთხოვნები პირდაპირ თითოეული მიმღებისთვის შემდეგ ეტაპზე."
+
+#: packages/email/template-components/template-document-super-delete.tsx:31
+msgid "This document can not be recovered, if you would like to dispute the reason for future documents please contact support."
+msgstr "ეს დოკუმენტი ვერ იქნას აღდგენილი, თუ გსურთ მომავალ დოკუმენტებზე მიზეზის დაპირისპირება, გთხოვთ, დაუკავშირდეთ მხარდაჭერას."
+
+#: packages/ui/primitives/document-flow/add-fields.tsx:757
+msgid "This document has already been sent to this recipient. You can no longer edit this recipient."
+msgstr "ეს დოკუმენტი უკვე გაგზავნილი იქნა ამ მიმღებზე. თქვენ აღარ შეგეძლებათ ამ მიმღის რედაქტირება."
+
+#: packages/ui/primitives/document-password-dialog.tsx:66
+msgid "This document is password protected. Please enter the password to view the document."
+msgstr "ეს დოკუმენტი არის პაროლით დაცული. გთხოვთ, შეიყვანოთ პაროლი დოკუმენტის ნახვისთვის."
+
+#: packages/email/template-components/template-footer.tsx:14
+msgid "This document was sent using <0>Documenso.</0>"
+msgstr "ეს დოკუმენტი გაიგზავნა გამოყენებით <0>Documenso.</0>"
+
+#: packages/ui/primitives/template-flow/add-template-placeholder-recipients.tsx:573
+msgid "This field cannot be modified or deleted. When you share this template's direct link or add it to your public profile, anyone who accesses it can input their name and email, and fill in the fields assigned to them."
+msgstr "ამ ველს არ შეუძლია შეცვლა ან წაშლა. როდესაც თქვენ გაგზავნით ამ შაბლონის პირდაპირ ბმულს ან დაამატებთ მას თქვენს საჯარო პროფილში, ვინც მას გაიხსნის, შეძლებს შეიტანოს თავისი სახელი და ელ.ფოსტა და შეავსოს მათთვის გამოყოფილი ველები."
+
+#: packages/ui/primitives/document-flow/add-fields.tsx:1090
+msgid "This recipient can no longer be modified as they have signed a field, or completed the document."
+msgstr "ამ მიმღებს უკვე არ შეუძლია რედაქტირება, რადგან მან ხელი მოაწერა ველს ან დაასრულა დოკუმენტი."
+
+#: packages/ui/primitives/document-flow/add-signers.tsx:194
+msgid "This signer has already signed the document."
+msgstr "ამ ხელმომწერმა უკვე მოაწერა ხელი დოკუმენტს."
+
+#: packages/ui/components/recipient/recipient-action-auth-select.tsx:48
+msgid "This will override any global settings."
+msgstr "ეს შეცვლის ყველა გლობალურ პარამეტრს."
+
+#: packages/ui/primitives/document-flow/add-settings.tsx:347
+#: packages/ui/primitives/template-flow/add-template-settings.tsx:348
+msgid "Time Zone"
+msgstr "დროის ზონა"
+
+#: packages/ui/primitives/document-flow/add-settings.tsx:155
+msgid "Title"
+msgstr "სათაური"
+
+#: packages/ui/primitives/document-flow/add-fields.tsx:1073
+#: packages/ui/primitives/template-flow/add-template-fields.tsx:834
+msgid "To proceed further, please set at least one value for the {0} field."
+msgstr "გაგრძელებისთვის გთხოვთ, დააყენოთ მინიმუმ ერთი მნიშვნელობა {0} ველში."
+
+#: packages/ui/primitives/document-flow/add-subject.tsx:124
+msgid "Update"
+msgstr "განახლება"
+
+#: packages/lib/constants/template.ts:13
+msgid "Update the role and add fields as required for the direct recipient. The individual who uses the direct link will sign the document as the direct recipient."
+msgstr "განაახლეთ როლი და დაამატეთ ველები, როგორც საჭიროა პირდაპირი მიმღებისთვის. პირი, ვინც გამოიყენებს პირდაპირ ბმულს, მოაწერს ხელს დოკუმენტს როგორც პირდაპირი მიმღები."
+
+#: packages/ui/primitives/document-dropzone.tsx:168
+msgid "Upgrade"
+msgstr "განახლება"
+
+#: packages/ui/primitives/document-dropzone.tsx:70
+msgid "Upload Template Document"
+msgstr "შაბლონის დოკუმენტის ატვირთვა"
+
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/checkbox-field.tsx:132
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/number-field.tsx:167
+msgid "Validation"
+msgstr "ვალიდაცია"
+
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/number-field.tsx:91
+#: packages/ui/primitives/document-flow/field-items-advanced-settings/number-field.tsx:96
+msgid "Value"
+msgstr "მნიშვნელობა"
+
+#: packages/lib/constants/recipient-roles.ts:26
+msgid "View"
+msgstr "ნახვა"
+
+#: packages/email/templates/document-created-from-direct-template.tsx:69
+msgid "View document"
+msgstr "დოკუმენტის ნახვა"
+
+#: packages/email/template-components/template-document-self-signed.tsx:79
+msgid "View plans"
+msgstr "გეგმების ნახვა"
+
+#: packages/lib/constants/recipient-roles.ts:67
+#~ msgid "VIEW_REQUEST"
+#~ msgstr "VIEW_REQUEST"
+
+#: packages/lib/constants/recipient-roles.ts:27
+msgid "Viewed"
+msgstr "ნახვა"
+
+#: packages/lib/constants/recipient-roles.ts:29
+msgid "Viewer"
+msgstr "მნახველი"
+
+#: packages/lib/constants/recipient-roles.ts:65
+msgid "Viewers"
+msgstr "მნახველები"
+
+#: packages/lib/constants/recipient-roles.ts:28
+msgid "Viewing"
+msgstr "ნახვა"
+
+#: packages/email/template-components/template-document-pending.tsx:31
+msgid "Waiting for others"
+msgstr "მოლოდინში ვართ სხვა ადამიანებისგან"
+
+#: packages/lib/server-only/document/send-pending-email.ts:73
+msgid "Waiting for others to complete signing."
+msgstr "მოლოდინში ვართ, რომ სხვებმა დაასრულონ ხელმოწერა."
+
+#: packages/email/template-components/template-document-pending.tsx:41
+msgid "We're still waiting for other signers to sign this document.<0/>We'll notify you as soon as it's ready."
+msgstr "ჩვენ ჯერ კიდევ ველოდებით სხვა ხელმომწერებს, რომ მოაწერონ ხელი ამ დოკუმენტს.<0/>მოგახსენებთ, როგორც კი მზად იქნება."
+
+#: packages/email/templates/reset-password.tsx:59
+msgid "We've changed your password as you asked. You can now sign in with your new password."
+msgstr "ჩვენ შევცვალეთ თქვენი პაროლი, როგორც მიგითითეთ. ახლა შეგიძლიათ შედგეთ ახალ პაროლთან."
+
+#: packages/email/template-components/template-confirmation-email.tsx:24
+msgid "Welcome to Documenso!"
+msgstr "კეთილი იყოს თქვენი მობრძანება Documenso-ში!"
+
+#: packages/lib/utils/document-audit-logs.ts:258
+msgid "You"
+msgstr "თქვენ"
+
+#: packages/ui/primitives/document-flow/send-document-action-dialog.tsx:44
+msgid "You are about to send this document to the recipients. Are you sure you want to continue?"
+msgstr "თქვენ იგზავნით ამ დოკუმენტს მიმღებზე. დარწმუნებული ხართ, რომ გსურთ გაგრძელება?"
+
+#: packages/email/template-components/template-confirmation-email.tsx:41
+msgid "You can also copy and paste this link into your browser: {confirmationLink} (link expires in 1 hour)"
+msgstr "თქვენ ასევე შეგიძლიათ დააკოპიროთ და ჩააკოპიროთ ეს ბმული თქვენს ბრაუზერში: {confirmationLink} (ბმული ვადაგასულია 1 საათში)"
+
+#: packages/ui/components/document/document-send-email-message-helper.tsx:11
+msgid "You can use the following variables in your message:"
+msgstr "თქვენ შეგიძლიათ გამოიყენოთ შემდეგი ცვლადები თქვენს შეტყობინებაში:"
+
+#: packages/ui/primitives/document-dropzone.tsx:43
+msgid "You cannot upload documents at this time."
+msgstr "ამჟამად არ შეგიძლიათ დოკუმენტების ატვირთვა."
+
+#: packages/email/template-components/template-document-cancel.tsx:35
+msgid "You don't need to sign it anymore."
+msgstr "თქვენ აღარ გჭირდებათ მისი ხელმოწერა."
+
+#: packages/lib/server-only/team/create-team-member-invites.ts:168
+msgid "You have been invited to join {0} on Documenso"
+msgstr "თქვენ შემოწვეული ხართ {0}-ზე Documenso-ში"
+
+#: packages/email/templates/team-invite.tsx:59
+msgid "You have been invited to join the following team"
+msgstr "თქვენ შემოწვეული ხართ ამ გუნდში"
+
+#: packages/lib/server-only/recipient/set-recipients-for-document.ts:314
+msgid "You have been removed from a document"
+msgstr "თქვენ ამოიღეთ დოკუმენტიდან"
+
+#: packages/lib/server-only/team/request-team-ownership-transfer.ts:114
+msgid "You have been requested to take ownership of team {0} on Documenso"
+msgstr "თქვენ გთხოვეს, მიიღოთ გუნდის {0} მფლობელობა Documenso-ზე"
+
+#: packages/lib/jobs/definitions/emails/send-signing-email.ts:102
+#: packages/lib/server-only/document/resend-document.tsx:113
+msgid "You have initiated the document {0} that requires you to {recipientActionVerb} it."
+msgstr "თქვენ დაიწყეთ დოკუმენტი {0}, რაც მოითხოვს თქვენგან {recipientActionVerb}."
+
+#: packages/ui/primitives/document-dropzone.tsx:69
+msgid "You have reached your document limit."
+msgstr "თქვენ მიაღწიეთ დოკუმენტების შეზღუდულ რაოდენობას."
+
+#: packages/email/template-components/template-document-self-signed.tsx:42
+msgid "You have signed “{documentName}”"
+msgstr "თქვენ მოაწერეთ ხელი „{documentName}“"
+
+#: packages/email/template-components/template-document-super-delete.tsx:23
+msgid "Your document has been deleted by an admin!"
+msgstr "თქვენი დოკუმენტი წაიშალა ადმინისტრატორის მიერ!"
+
+#: packages/email/template-components/template-reset-password.tsx:26
+msgid "Your password has been updated."
+msgstr "თქვენი პაროლი განახლდა."
+
+#: packages/email/templates/team-delete.tsx:26
+#: packages/email/templates/team-delete.tsx:30
+msgid "Your team has been deleted"
+msgstr "თქვენი გუნდი წაიშალა"
+

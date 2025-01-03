@@ -3,7 +3,12 @@ import { hash } from '@node-rs/bcrypt';
 import { getStripeCustomerByUser } from '@documenso/ee/server-only/stripe/get-customer';
 import { updateSubscriptionItemQuantity } from '@documenso/ee/server-only/stripe/update-subscription-item-quantity';
 import { prisma } from '@documenso/prisma';
-import { IdentityProvider, Prisma, TeamMemberInviteStatus } from '@documenso/prisma/client';
+import {
+  IdentityProvider,
+  Prisma,
+  SubscriptionType,
+  TeamMemberInviteStatus,
+} from '@documenso/prisma/client';
 
 import { IS_BILLING_ENABLED } from '../../constants/app';
 import { SALT_ROUNDS } from '../../constants/auth';
@@ -54,6 +59,16 @@ export const createUser = async ({ name, email, password, signature, url }: Crea
       signature,
       identityProvider: IdentityProvider.DOCUMENSO,
       url,
+    },
+  });
+
+  await prisma.subscription.create({
+    data: {
+      userId: user.id,
+      planId: Date.now().toString(),
+      priceId: '',
+      status: 'ACTIVE',
+      type: SubscriptionType.FREE,
     },
   });
 

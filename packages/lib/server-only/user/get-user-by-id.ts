@@ -9,5 +9,8 @@ export const getUserById = async ({ id }: GetUserByIdOptions) => {
     where: {
       id,
     },
+    include: {
+      Subscription: true,
+    },
   });
 };

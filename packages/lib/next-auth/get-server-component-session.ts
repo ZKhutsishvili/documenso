@@ -19,6 +19,9 @@ export const getServerComponentSession = cache(async () => {
     where: {
       email: session.user.email,
     },
+    include: {
+      Subscription: true,
+    },
   });
 
   return { user, session };

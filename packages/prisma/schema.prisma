@@ -221,10 +221,18 @@ enum SubscriptionStatus {
   INACTIVE
 }
 
+enum SubscriptionType {
+  FREE
+  BASIC
+  PROFESSIONAL
+  ENTERPRISE
+}
+
 model Subscription {
   id                Int                @id @default(autoincrement())
   status            SubscriptionStatus @default(INACTIVE)
   planId            String             @unique
+  type              SubscriptionType   @default(FREE)
   priceId           String
   periodEnd         DateTime?
   userId            Int?

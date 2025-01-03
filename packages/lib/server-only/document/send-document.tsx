@@ -36,12 +36,16 @@ export const sendDocument = async ({
     where: {
       id: userId,
     },
-    select: {
-      id: true,
-      name: true,
-      email: true,
+    include: {
+      Subscription: true,
     },
   });
+
+  // const canSend = await userCanSendDocument({user});
+
+  // if (!canSend) {
+  //   throw new Error('DOCUMENT_LIMIT_REACHED');
+  // }
 
   const document = await prisma.document.findUnique({
     where: {

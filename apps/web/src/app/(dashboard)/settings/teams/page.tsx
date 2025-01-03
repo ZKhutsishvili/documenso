@@ -18,29 +18,32 @@ export default function TeamsSettingsPage() {
   const { _ } = useLingui();
 
   const { data: teamEmail } = trpc.team.getTeamEmailByEmail.useQuery();
+  const { data: haveTeamSubscription } = trpc.profile.canUserHaveTeams.useQuery();
+  if (haveTeamSubscription) {
+    return (
+      <div>
+        <SettingsHeader
+          title={_(msg`Teams`)}
+          subtitle={_(msg`Manage all teams you are currently associated with.`)}
+        >
+          <CreateTeamDialog />
+        </SettingsHeader>
 
-  return (
-    <div>
-      <SettingsHeader
-        title={_(msg`Teams`)}
-        subtitle={_(msg`Manage all teams you are currently associated with.`)}
-      >
-        <CreateTeamDialog />
-      </SettingsHeader>
+        <UserSettingsTeamsPageDataTable />
 
-      <UserSettingsTeamsPageDataTable />
+        <div className="mt-8 space-y-8">
+          <AnimatePresence>
+            {teamEmail && (
+              <AnimateGenericFadeInOut>
+                <TeamEmailUsage teamEmail={teamEmail} />
+              </AnimateGenericFadeInOut>
+            )}
+          </AnimatePresence>
 
-      <div className="mt-8 space-y-8">
-        <AnimatePresence>
-          {teamEmail && (
-            <AnimateGenericFadeInOut>
-              <TeamEmailUsage teamEmail={teamEmail} />
-            </AnimateGenericFadeInOut>
-          )}
-        </AnimatePresence>
-
-        <TeamInvitations />
+          <TeamInvitations />
+        </div>
       </div>
-    </div>
-  );
+    );
+  }
+  return null;
 }

@@ -14,7 +14,7 @@ import { updatePassword } from '@documenso/lib/server-only/user/update-password'
 import { updateProfile } from '@documenso/lib/server-only/user/update-profile';
 import { updatePublicProfile } from '@documenso/lib/server-only/user/update-public-profile';
 import { extractNextApiRequestMetadata } from '@documenso/lib/universal/extract-request-metadata';
-import { SubscriptionStatus } from '@documenso/prisma/client';
+import { SubscriptionStatus, SubscriptionType } from '@documenso/prisma/client';
 
 import { adminProcedure, authenticatedProcedure, procedure, router } from '../trpc';
 import {
@@ -53,6 +53,39 @@ export const profileRouter = router({
       const { id } = input;
 
       return await getUserById({ id });
+    } catch (err) {
+      console.error(err);
+
+      throw new TRPCError({
+        code: 'BAD_REQUEST',
+        message: 'We were unable to retrieve the specified account. Please try again.',
+      });
+    }
+  }),
+
+  canUserHaveTeams: authenticatedProcedure.query(async ({ ctx }) => {
+    try {
+      const user = await getUserById({ id: ctx.user.id });
+
+      let haveTeamSubscription = false;
+      if (
+        user?.Subscription[0] &&
+        user?.Subscription[0].status === SubscriptionStatus.ACTIVE &&
+        user?.Subscription[0].type === SubscriptionType.ENTERPRISE
+      ) {
+        haveTeamSubscription = true;
+      }
+      return haveTeamSubscription;
+    } catch (err) {
+      console.error(err);
+
+      throw AppError.parseErrorToTRPCError(err);
+    }
+  }),
+
+  getUserByCtx: authenticatedProcedure.query(async ({ ctx }) => {
+    try {
+      return await getUserById({ id: ctx.user.id });
     } catch (err) {
       console.error(err);
 

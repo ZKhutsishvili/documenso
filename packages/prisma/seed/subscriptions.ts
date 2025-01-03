@@ -14,6 +14,7 @@ export const seedUserSubscription = async ({ userId, priceId }: SeedSubscription
       planId: Date.now().toString(),
       priceId,
       status: 'ACTIVE',
+      type: 'FREE',
     },
   });
 };

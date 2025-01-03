@@ -118,6 +118,19 @@ export const DesktopNav = ({ className, ...props }: DesktopNavProps) => {
           </Button>
         </Link>
       )}
+
+      <Link href="/settings/subscription">
+        <Button
+          variant="ghost"
+          className={cn(
+            'w-full justify-start',
+            pathname?.startsWith('/settings/subscription') && 'bg-secondary',
+          )}
+        >
+          <CreditCard className="mr-2 h-5 w-5" />
+          <Trans>Subscription</Trans>
+        </Button>
+      </Link>
     </div>
   );
 };

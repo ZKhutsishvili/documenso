@@ -41,7 +41,16 @@ export const resendDocument = async ({
     where: {
       id: userId,
     },
+    include: {
+      Subscription: true,
+    },
   });
+
+  // const canSend = await userCanSendDocument({user});
+
+  // if (!canSend) {
+  //   throw new Error('DOCUMENT_LIMIT_REACHED');
+  // }
 
   const documentWhereInput: Prisma.DocumentWhereUniqueInput = await getDocumentWhereInput({
     documentId,

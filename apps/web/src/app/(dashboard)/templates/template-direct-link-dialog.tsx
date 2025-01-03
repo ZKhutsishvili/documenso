@@ -236,7 +236,7 @@ export const TemplateDirectLinkDialog = ({
                         templates.{' '}
                         <Link
                           className="mt-1 block underline underline-offset-4"
-                          href="/settings/billing"
+                          href="/settings/subscription"
                         >
                           Upgrade your account to continue!
                         </Link>
