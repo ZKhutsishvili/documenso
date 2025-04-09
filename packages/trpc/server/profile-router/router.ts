@@ -83,6 +83,41 @@ export const profileRouter = router({
     }
   }),
 
+  canUserHaveDirectLinks: authenticatedProcedure.query(async ({ ctx }) => {
+    try {
+      const user = await getUserById({ id: ctx.user.id });
+
+      let haveDirectLinkSubscription = false;
+      if (
+        user?.Subscription[0] &&
+        user?.Subscription[0].status === SubscriptionStatus.ACTIVE &&
+        user?.Subscription[0].type === SubscriptionType.ENTERPRISE
+      ) {
+        haveDirectLinkSubscription = true;
+      }
+      return haveDirectLinkSubscription;
+    } catch (err) {
+      console.error(err);
+
+      throw AppError.parseErrorToTRPCError(err);
+    }
+  }),
+
+  sendUpgradeAccountMail: authenticatedProcedure.mutation(async ({ input, ctx }) => {
+    try {
+      await jobsClient.triggerJob({
+        name: 'send.account.uppgrade.email',
+        payload: {
+          userId: ctx.user.id,
+        },
+      });
+    } catch (err) {
+      console.error(err);
+
+      throw AppError.parseErrorToTRPCError(err);
+    }
+  }),
+
   getUserByCtx: authenticatedProcedure.query(async ({ ctx }) => {
     try {
       return await getUserById({ id: ctx.user.id });

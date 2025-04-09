@@ -55,7 +55,6 @@ export const TemplatesPageView = async ({ searchParams = {}, team }: TemplatesPa
             <Trans>Templates</Trans>
           </h1>
         </div>
-
         <div>
           <NewTemplateDialog templateRootPath={templateRootPath} teamId={team?.id} />
         </div>

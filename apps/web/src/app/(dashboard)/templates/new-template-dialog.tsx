@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 
+import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 
 import { Trans, msg } from '@lingui/macro';
@@ -9,9 +10,11 @@ import { useLingui } from '@lingui/react';
 import { FilePlus, Loader } from 'lucide-react';
 import { useSession } from 'next-auth/react';
 
+import { useLimits } from '@documenso/ee/server-only/limits/provider/client';
 import { createDocumentData } from '@documenso/lib/server-only/document-data/create-document-data';
 import { putPdfFile } from '@documenso/lib/universal/upload/put-file';
 import { trpc } from '@documenso/trpc/react';
+import { Alert, AlertDescription, AlertTitle } from '@documenso/ui/primitives/alert';
 import { Button } from '@documenso/ui/primitives/button';
 import {
   Dialog,
@@ -37,6 +40,7 @@ export const NewTemplateDialog = ({ teamId, templateRootPath }: NewTemplateDialo
   const { data: session } = useSession();
   const { toast } = useToast();
   const { _ } = useLingui();
+  const { quota, remaining } = useLimits();
 
   const { mutateAsync: createTemplate } = trpc.template.createTemplate.useMutation();
 
@@ -84,6 +88,24 @@ export const NewTemplateDialog = ({ teamId, templateRootPath }: NewTemplateDialo
       setIsUploadingFile(false);
     }
   };
+
+  if (remaining.directTemplates === 0) {
+    return (
+      <Alert variant="warning">
+        <AlertTitle>
+          <Trans>Template Limit Exceeded!</Trans>
+        </AlertTitle>
+        <AlertDescription>
+          <Trans>
+            You have reached your Template limit.{' '}
+            <Link className="mt-1 block underline underline-offset-4" href="/settings/subscription">
+              Upgrade your account to continue!
+            </Link>
+          </Trans>
+        </AlertDescription>
+      </Alert>
+    );
+  }
 
   return (
     <Dialog

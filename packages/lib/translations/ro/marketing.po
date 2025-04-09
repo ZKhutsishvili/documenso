@@ -72,7 +72,7 @@ msgstr "Construiește pe baza."
 
 #: apps/marketing/src/app/(marketing)/pricing/page.tsx:163
 msgid "Can I use Documenso commercially?"
-msgstr "Pot folosi Documenso comercial?"
+msgstr "Pot folosi SignDoc comercial?"
 
 #: apps/marketing/src/components/(marketing)/footer.tsx:42
 msgid "Careers"
@@ -136,11 +136,11 @@ msgstr "Link Direct"
 
 #: apps/marketing/src/app/(marketing)/pricing/page.tsx:181
 msgid "Documenso is a community effort to create an open and vibrant ecosystem around a tool, everybody is free to use and adapt. By being truly open we want to create trusted infrastructure for the future of the internet."
-msgstr "Documenso este un efort al comunității de a crea un ecosistem deschis și vibrant în jurul unui instrument, pe care toți îl pot folosi și adapta gratuit. Fiind cu adevărat deschiși, dorim să creăm o infrastructură de încredere pentru viitorul internetului."
+msgstr "SignDoc este un efort al comunității de a crea un ecosistem deschis și vibrant în jurul unui instrument, pe care toți îl pot folosi și adapta gratuit. Fiind cu adevărat deschiși, dorim să creăm o infrastructură de încredere pentru viitorul internetului."
 
 #: apps/marketing/src/app/(marketing)/open/typefully.tsx:28
 msgid "Documenso on X"
-msgstr "Documenso pe X"
+msgstr "SignDoc pe X"
 
 #: apps/marketing/src/components/(marketing)/hero.tsx:100
 msgid "Document signing,<0/>finally open source."
@@ -153,7 +153,7 @@ msgstr "Documentație"
 
 #: apps/marketing/src/components/(marketing)/share-connect-paid-widget-bento.tsx:106
 msgid "Easily embed Documenso into your product. Simply copy and paste our react widget into your application."
-msgstr "Incorporați ușor Documenso în produsul dvs. Pur și simplu copiați și lipiți widget-ul nostru react în aplicația dvs."
+msgstr "Incorporați ușor SignDoc în produsul dvs. Pur și simplu copiați și lipiți widget-ul nostru react în aplicația dvs."
 
 #: apps/marketing/src/components/(marketing)/share-connect-paid-widget-bento.tsx:42
 msgid "Easy Sharing (Soon)."
@@ -234,7 +234,7 @@ msgstr "Începe astăzi."
 
 #: apps/marketing/src/app/(marketing)/blog/page.tsx:30
 msgid "Get the latest news from Documenso, including product updates, team announcements and more!"
-msgstr "Primește cele mai recente știri de la Documenso, inclusiv actualizări de produse, anunțuri ale echipei și multe altele!"
+msgstr "Primește cele mai recente știri de la SignDoc, inclusiv actualizări de produse, anunțuri ale echipei și multe altele!"
 
 #: apps/marketing/src/app/(marketing)/open/page.tsx:233
 msgid "GitHub: Total Merged PRs"
@@ -361,11 +361,11 @@ msgstr "Șabloanele noastre personalizate vin cu reguli inteligente care te pot 
 
 #: apps/marketing/src/components/(marketing)/enterprise.tsx:20
 msgid "Our Enterprise License is great for large organizations looking to switch to Documenso for all their signing needs. It's available for our cloud offering as well as self-hosted setups and offers a wide range of compliance and Adminstration Features."
-msgstr "Licența Enterprise este ideală pentru organizațiile mari care doresc să treacă la Documenso pentru toate nevoile lor de semnare. Este disponibilă atât pentru oferta noastră de cloud, cât și pentru configurații auto-găzduite și oferă o gamă largă de funcții de conformitate și administrare."
+msgstr "Licența Enterprise este ideală pentru organizațiile mari care doresc să treacă la SignDoc pentru toate nevoile lor de semnare. Este disponibilă atât pentru oferta noastră de cloud, cât și pentru configurații auto-găzduite și oferă o gamă largă de funcții de conformitate și administrare."
 
 #: apps/marketing/src/components/(marketing)/enterprise.tsx:20
 #~ msgid "Our Enterprise License is great large organizations looking to switch to Documenso for all their signing needs. It's availible for our cloud offering as well as self-hosted setups and offer a wide range of compliance and Adminstration Features."
-#~ msgstr "Our Enterprise License is great large organizations looking to switch to Documenso for all their signing needs. It's availible for our cloud offering as well as self-hosted setups and offer a wide range of compliance and Adminstration Features."
+#~ msgstr "Our Enterprise License is great large organizations looking to switch to SignDoc for all their signing needs. It's availible for our cloud offering as well as self-hosted setups and offer a wide range of compliance and Adminstration Features."
 
 #: apps/marketing/src/app/(marketing)/pricing/page.tsx:65
 msgid "Our self-hosted option is great for small teams and individuals who need a simple solution. You can use our docker based setup to get started in minutes. Take control with full customizability and data ownership."
@@ -559,7 +559,7 @@ msgstr "Vezi toate statisticile"
 
 #: apps/marketing/src/app/(marketing)/pricing/page.tsx:195
 msgid "We are happy to assist you at <0>support@documenso.com</0> or <1>in our Discord-Support-Channel</1> please message either Lucas or Timur to get added to the channel if you are not already a member."
-msgstr "Suntem bucuroși să vă asistăm la <0>support@documenso.com</0> sau <1>în canalul nostru de suport Discord</1>, te rugăm să-i trimiți un mesaj fie lui Lucas, fie lui Timur pentru a fi adăugat în canal dacă nu ești deja membru."
+msgstr "Suntem bucuroși să vă asistăm la <0>support@signdoc.com</0> sau <1>în canalul nostru de suport Discord</1>, te rugăm să-i trimiți un mesaj fie lui Lucas, fie lui Timur pentru a fi adăugat în canal dacă nu ești deja membru."
 
 #: apps/marketing/src/app/(marketing)/pricing/page.tsx:89
 msgid "What is the difference between the plans?"
@@ -575,7 +575,7 @@ msgstr "Unde pot obține suport?"
 
 #: apps/marketing/src/app/(marketing)/pricing/page.tsx:177
 msgid "Why should I prefer Documenso over DocuSign or some other signing tool?"
-msgstr "De ce ar trebui să prefer Documenso în locul DocuSign sau altui instrument de semnare?"
+msgstr "De ce ar trebui să prefer SignDoc în locul DocuSign sau altui instrument de semnare?"
 
 #: apps/marketing/src/app/(marketing)/pricing/page.tsx:119
 msgid "Why should I use your hosting service?"
@@ -587,11 +587,11 @@ msgstr "Anual"
 
 #: apps/marketing/src/app/(marketing)/pricing/page.tsx:167
 msgid "Yes! Documenso is offered under the GNU AGPL V3 open source license. This means you can use it for free and even modify it to fit your needs, as long as you publish your changes under the same license."
-msgstr "Da! Documenso este oferit sub licența open source GNU AGPL V3. Aceasta înseamnă că îl poți folosi gratuit și chiar modifica pentru a se potrivi nevoilor tale, atâta timp cât publici modificările sub aceeași licență."
+msgstr "Da! SignDoc este oferit sub licența open source GNU AGPL V3. Aceasta înseamnă că îl poți folosi gratuit și chiar modifica pentru a se potrivi nevoilor tale, atâta timp cât publici modificările sub aceeași licență."
 
 #: apps/marketing/src/app/(marketing)/pricing/page.tsx:93
 msgid "You can self-host Documenso for free or use our ready-to-use hosted version. The hosted version comes with additional support, painless scalability and more. Early adopters will get access to all features we build this year, for no additional cost! Forever! Yes, that includes multiple users per account later. If you want Documenso for your enterprise, we are happy to talk about your needs."
-msgstr "Poți găzdui Documenso pe cont propriu gratuit sau să folosești versiunea noastră găzduită gata de utilizare. Versiunea găzduită vine cu suport suplimentar, scalabilitate fără dureri și multe altele. Utilizatorii timpurii vor avea acces la toate funcțiile pe care le construim în acest an, fără costuri suplimentare! Pentru totdeauna! Da, aceasta include utilizatori multipli pe cont mai târziu. Dacă dorești Documenso pentru întreprinderea ta, suntem bucuroși să discutăm despre nevoile tale."
+msgstr "Poți găzdui SignDoc pe cont propriu gratuit sau să folosești versiunea noastră găzduită gata de utilizare. Versiunea găzduită vine cu suport suplimentar, scalabilitate fără dureri și multe altele. Utilizatorii timpurii vor avea acces la toate funcțiile pe care le construim în acest an, fără costuri suplimentare! Pentru totdeauna! Da, aceasta include utilizatori multipli pe cont mai târziu. Dacă dorești SignDoc pentru întreprinderea ta, suntem bucuroși să discutăm despre nevoile tale."
 
 #: apps/marketing/src/components/(marketing)/carousel.tsx:258
 msgid "Your browser does not support the video tag."

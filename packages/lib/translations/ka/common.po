@@ -41,11 +41,11 @@ msgstr "{0}-მა მოგიწვიათ დოკუმენტის {r
 
 #: packages/email/templates/team-join.tsx:55
 msgid "{0} joined the team {teamName} on Documenso"
-msgstr "{0} შეუერთდა გუნდს {teamName} Documenso-ზე"
+msgstr "{0} შეუერთდა გუნდს {teamName} SignDoc-ზე"
 
 #: packages/email/templates/team-leave.tsx:55
 msgid "{0} left the team {teamName} on Documenso"
-msgstr "{0}-მა დატოვა გუნდი {teamName} Documenso-ზე"
+msgstr "{0}-მა დატოვა გუნდი {teamName} SignDoc-ზე"
 
 #: packages/ui/primitives/data-table-pagination.tsx:30
 msgid "{0} of {1} row(s) selected."
@@ -284,11 +284,11 @@ msgstr "მიმღები განახლდა"
 
 #: packages/lib/server-only/team/create-team-email-verification.ts:142
 msgid "A request to use your email has been initiated by {teamName} on Documenso"
-msgstr "თქვენი ელ.ფოსტის გამოყენების მოთხოვნა ინიციირებულია {teamName}-ის მიერ Documenso-ზე"
+msgstr "თქვენი ელ.ფოსტის გამოყენების მოთხოვნა ინიციირებულია {teamName}-ის მიერ SignDoc-ზე"
 
 #: packages/email/templates/team-join.tsx:29
 msgid "A team member has joined a team on Documenso"
-msgstr "გუნდის წევრი შეუერთდა გუნდს Documenso-ზე"
+msgstr "გუნდის წევრი შეუერთდა გუნდს SignDoc-ზე"
 
 #: packages/lib/jobs/definitions/emails/send-team-member-left-email.ts:79
 msgid "A team member has left {0}"
@@ -296,7 +296,7 @@ msgstr "გუნდის წევრმა დატოვა {0}"
 
 #: packages/email/templates/team-leave.tsx:29
 msgid "A team member has left a team on Documenso"
-msgstr "გუნდის წევრმა დატოვა გუნდი Documenso-ზე"
+msgstr "გუნდის წევრმა დატოვა გუნდი SignDoc-ზე"
 
 #: packages/email/templates/team-delete.tsx:27
 #: packages/email/templates/team-delete.tsx:31
@@ -310,15 +310,15 @@ msgstr "დაკმაყოფილება"
 
 #: packages/email/templates/team-invite.tsx:29
 msgid "Accept invitation to join a team on Documenso"
-msgstr "მიიღე მოწვევა, რათა შეუერთდე გუნდს Documenso-ზე"
+msgstr "მიიღე მოწვევა, რათა შეუერთდე გუნდს SignDoc-ზე"
 
 #: packages/email/templates/confirm-team-email.tsx:38
 msgid "Accept team email request for {teamName} on Documenso"
-msgstr "მიიღე ელ.ფოსტის მოთხოვნა გუნდისთვის {teamName} Documenso-ზე"
+msgstr "მიიღე ელ.ფოსტის მოთხოვნა გუნდისთვის {teamName} SignDoc-ზე"
 
 #: packages/email/templates/team-transfer-request.tsx:29
 msgid "Accept team transfer request on Documenso"
-msgstr "მიიღე გუნდის გადაცემის მოთხოვნა Documenso-ზე"
+msgstr "მიიღე გუნდის გადაცემის მოთხოვნა SignDoc-ზე"
 
 #: packages/ui/primitives/document-dropzone.tsx:69
 msgid "Add a document"
@@ -835,7 +835,7 @@ msgstr "არასწორი ელფოსტის მისამარ�
 
 #: packages/email/templates/team-invite.tsx:55
 msgid "Join {teamName} on Documenso"
-msgstr "შეუერთდი {teamName}-ს Documenso-ზე"
+msgstr "შეუერთდი {teamName}-ს SignDoc-ზე"
 
 #: packages/ui/primitives/document-flow/field-items-advanced-settings/number-field.tsx:67
 #: packages/ui/primitives/document-flow/field-items-advanced-settings/number-field.tsx:72
@@ -1243,7 +1243,7 @@ msgstr "გუნდური ელფოსტა წაიშალა"
 
 #: packages/email/templates/team-email-removed.tsx:27
 msgid "Team email removed for {teamName} on Documenso"
-msgstr "გუნდური ელფოსტა წაიშალა {teamName}-ისთვის Documenso-ზე"
+msgstr "გუნდური ელფოსტა წაიშალა {teamName}-ისთვის SignDoc-ზე"
 
 #: packages/ui/primitives/template-flow/add-template-settings.tsx:133
 msgid "Template title"
@@ -1345,7 +1345,7 @@ msgstr "ეს დოკუმენტი არის პაროლით �
 
 #: packages/email/template-components/template-footer.tsx:14
 msgid "This document was sent using <0>Documenso.</0>"
-msgstr "ეს დოკუმენტი გაიგზავნა გამოყენებით <0>Documenso.</0>"
+msgstr "ეს დოკუმენტი გაიგზავნა გამოყენებით <0>SignDoc.</0>"
 
 #: packages/ui/primitives/template-flow/add-template-placeholder-recipients.tsx:573
 msgid "This field cannot be modified or deleted. When you share this template's direct link or add it to your public profile, anyone who accesses it can input their name and email, and fill in the fields assigned to them."
@@ -1453,7 +1453,7 @@ msgstr "ჩვენ შევცვალეთ თქვენი პარო
 
 #: packages/email/template-components/template-confirmation-email.tsx:24
 msgid "Welcome to Documenso!"
-msgstr "კეთილი იყოს თქვენი მობრძანება Documenso-ში!"
+msgstr "კეთილი იყოს თქვენი მობრძანება SignDoc-ში!"
 
 #: packages/lib/utils/document-audit-logs.ts:258
 msgid "You"
@@ -1481,7 +1481,7 @@ msgstr "თქვენ აღარ გჭირდებათ მისი �
 
 #: packages/lib/server-only/team/create-team-member-invites.ts:168
 msgid "You have been invited to join {0} on Documenso"
-msgstr "თქვენ შემოწვეული ხართ {0}-ზე Documenso-ში"
+msgstr "თქვენ შემოწვეული ხართ {0}-ზე SignDoc-ში"
 
 #: packages/email/templates/team-invite.tsx:59
 msgid "You have been invited to join the following team"
@@ -1493,7 +1493,7 @@ msgstr "თქვენ ამოიღეთ დოკუმენტიდა�
 
 #: packages/lib/server-only/team/request-team-ownership-transfer.ts:114
 msgid "You have been requested to take ownership of team {0} on Documenso"
-msgstr "თქვენ გთხოვეს, მიიღოთ გუნდის {0} მფლობელობა Documenso-ზე"
+msgstr "თქვენ გთხოვეს, მიიღოთ გუნდის {0} მფლობელობა SignDoc-ზე"
 
 #: packages/lib/jobs/definitions/emails/send-signing-email.ts:102
 #: packages/lib/server-only/document/resend-document.tsx:113

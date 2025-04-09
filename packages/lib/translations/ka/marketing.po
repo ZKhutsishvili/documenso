@@ -72,7 +72,7 @@ msgstr "აშენეთ ზემოდან."
 
 #: apps/marketing/src/app/(marketing)/pricing/page.tsx:163
 msgid "Can I use Documenso commercially?"
-msgstr "შემიძლია Documenso-ს კომერციული გამოყენება?"
+msgstr "შემიძლია SignDoc-ს კომერციული გამოყენება?"
 
 #: apps/marketing/src/components/(marketing)/footer.tsx:42
 msgid "Careers"
@@ -136,11 +136,11 @@ msgstr "პირდაპირი ბმული"
 
 #: apps/marketing/src/app/(marketing)/pricing/page.tsx:181
 msgid "Documenso is a community effort to create an open and vibrant ecosystem around a tool, everybody is free to use and adapt. By being truly open we want to create trusted infrastructure for the future of the internet."
-msgstr "Documenso არის საზოგადოების მცდელობა შექმნას ღია და ცოცხალი ეკოსისტემა ინსტრუმენტის გარშემო, რომლის გამოყენება და ადაპტირება ყველას შეუძლია. სრული გახსნილობით გვსურს შევქმნათ სანდო ინფრასტრუქტურა ინტერნეტის მომავლისთვის."
+msgstr "SignDoc არის საზოგადოების მცდელობა შექმნას ღია და ცოცხალი ეკოსისტემა ინსტრუმენტის გარშემო, რომლის გამოყენება და ადაპტირება ყველას შეუძლია. სრული გახსნილობით გვსურს შევქმნათ სანდო ინფრასტრუქტურა ინტერნეტის მომავლისთვის."
 
 #: apps/marketing/src/app/(marketing)/open/typefully.tsx:28
 msgid "Documenso on X"
-msgstr "Documenso X-ზე"
+msgstr "SignDoc X-ზე"
 
 #: apps/marketing/src/components/(marketing)/hero.tsx:104
 msgid "Document signing,<0/>finally open source."
@@ -154,7 +154,7 @@ msgstr "დოკუმენტაცია"
 
 #: apps/marketing/src/components/(marketing)/share-connect-paid-widget-bento.tsx:110
 msgid "Easily embed Documenso into your product. Simply copy and paste our react widget into your application."
-msgstr "მარტივად ჩაამატეთ Documenso თქვენს პროდუქტში. უბრალოდ დააკოპირეთ და ჩასვით ჩვენი react ვიჯეტი თქვენს აპლიკაციაში."
+msgstr "მარტივად ჩაამატეთ SignDoc თქვენს პროდუქტში. უბრალოდ დააკოპირეთ და ჩასვით ჩვენი react ვიჯეტი თქვენს აპლიკაციაში."
 
 #: apps/marketing/src/components/(marketing)/share-connect-paid-widget-bento.tsx:46
 msgid "Easy Sharing."
@@ -240,7 +240,7 @@ msgstr "დაიწყეთ დღესვე."
 
 #: apps/marketing/src/app/(marketing)/blog/page.tsx:30
 msgid "Get the latest news from Documenso, including product updates, team announcements and more!"
-msgstr "მიიღეთ უახლესი სიახლეები Documenso-დან, მათ შორის პროდუქტის განახლებები, გუნდის განცხადებები და მეტი!"
+msgstr "მიიღეთ უახლესი სიახლეები SignDoc-დან, მათ შორის პროდუქტის განახლებები, გუნდის განცხადებები და მეტი!"
 
 #: apps/marketing/src/app/(marketing)/open/page.tsx:232
 msgid "GitHub: Total Merged PRs"
@@ -367,7 +367,7 @@ msgstr "ჩვენი მორგებული შაბლონები 
 
 #: apps/marketing/src/components/(marketing)/enterprise.tsx:20
 msgid "Our Enterprise License is great for large organizations looking to switch to Documenso for all their signing needs. It's available for our cloud offering as well as self-hosted setups and offers a wide range of compliance and Adminstration Features."
-msgstr "ჩვენი საწარმოო ლიცენზია შესანიშნავია დიდი ორგანიზაციებისთვის, რომლებსაც სურთ Documenso-ზე გადასვლა მათი ყველა ხელმოწერის საჭიროებისთვის. ის ხელმისაწვდომია როგორც ჩვენი ღრუბლოვანი შეთავაზებისთვის, ასევე თვითჰოსტირებული კონფიგურაციებისთვის და გთავაზობთ შესაბამისობისა და ადმინისტრირების ფუნქციების ფართო სპექტრს."
+msgstr "ჩვენი საწარმოო ლიცენზია შესანიშნავია დიდი ორგანიზაციებისთვის, რომლებსაც სურთ SignDoc-ზე გადასვლა მათი ყველა ხელმოწერის საჭიროებისთვის. ის ხელმისაწვდომია როგორც ჩვენი ღრუბლოვანი შეთავაზებისთვის, ასევე თვითჰოსტირებული კონფიგურაციებისთვის და გთავაზობთ შესაბამისობისა და ადმინისტრირების ფუნქციების ფართო სპექტრს."
 
 #: apps/marketing/src/app/(marketing)/pricing/page.tsx:65
 msgid "Our self-hosted option is great for small teams and individuals who need a simple solution. You can use our docker based setup to get started in minutes. Take control with full customizability and data ownership."
@@ -561,7 +561,7 @@ msgstr "ყველა სტატისტიკის ნახვა"
 
 #: apps/marketing/src/app/(marketing)/pricing/page.tsx:195
 msgid "We are happy to assist you at <0>support@documenso.com</0> or <1>in our Discord-Support-Channel</1> please message either Lucas or Timur to get added to the channel if you are not already a member."
-msgstr "სიამოვნებით დაგეხმარებით <0>support@documenso.com</0>-ზე ან <1>ჩვენს Discord-ის მხარდაჭერის არხზე</1>. გთხოვთ მისწერეთ ლუკასს ან თიმურს არხზე დასამატებლად, თუ ჯერ არ ხართ წევრი."
+msgstr "სიამოვნებით დაგეხმარებით <0>support@signdoc.com</0>-ზე ან <1>ჩვენს Discord-ის მხარდაჭერის არხზე</1>. გთხოვთ მისწერეთ ლუკასს ან თიმურს არხზე დასამატებლად, თუ ჯერ არ ხართ წევრი."
 
 #: apps/marketing/src/app/(marketing)/pricing/page.tsx:89
 msgid "What is the difference between the plans?"
@@ -577,7 +577,7 @@ msgstr "სად შემიძლია მივიღო მხარდა
 
 #: apps/marketing/src/app/(marketing)/pricing/page.tsx:177
 msgid "Why should I prefer Documenso over DocuSign or some other signing tool?"
-msgstr "რატომ უნდა ვამჯობინო Documenso DocuSign-ს ან სხვა ხელმოწერის ინსტრუმენტს?"
+msgstr "რატომ უნდა ვამჯობინო SignDoc DocuSign-ს ან სხვა ხელმოწერის ინსტრუმენტს?"
 
 #: apps/marketing/src/app/(marketing)/pricing/page.tsx:119
 msgid "Why should I use your hosting service?"
@@ -589,11 +589,11 @@ msgstr "წლიური"
 
 #: apps/marketing/src/app/(marketing)/pricing/page.tsx:167
 msgid "Yes! Documenso is offered under the GNU AGPL V3 open source license. This means you can use it for free and even modify it to fit your needs, as long as you publish your changes under the same license."
-msgstr "დიახ! Documenso გთავაზობთ GNU AGPL V3 ღია წყაროს ლიცენზიას. ეს ნიშნავს, რომ შეგიძლიათ უფასოდ გამოიყენოთ და შეცვალოთ კიდეც თქვენი საჭიროებების მიხედვით, მანამ სანამ თქვენს ცვლილებებს იმავე ლიცენზიით გამოაქვეყნებთ."
+msgstr "დიახ! SignDoc გთავაზობთ GNU AGPL V3 ღია წყაროს ლიცენზიას. ეს ნიშნავს, რომ შეგიძლიათ უფასოდ გამოიყენოთ და შეცვალოთ კიდეც თქვენი საჭიროებების მიხედვით, მანამ სანამ თქვენს ცვლილებებს იმავე ლიცენზიით გამოაქვეყნებთ."
 
 #: apps/marketing/src/app/(marketing)/pricing/page.tsx:93
 msgid "You can self-host Documenso for free or use our ready-to-use hosted version. The hosted version comes with additional support, painless scalability and more. Early adopters will get access to all features we build this year, for no additional cost! Forever! Yes, that includes multiple users per account later. If you want Documenso for your enterprise, we are happy to talk about your needs."
-msgstr "შეგიძლიათ თვითონ უმასპინძლოთ Documenso-ს უფასოდ ან გამოიყენოთ ჩვენი მზა ჰოსტინგის ვერსია. ჰოსტინგის ვერსია მოდის დამატებითი მხარდაჭერით, უმტკივნეულო მასშტაბურობით და მეტით. ადრეულ მომხმარებლებს ექნებათ წვდომა ყველა ფუნქციაზე, რომელსაც ჩვენ წელს ვქმნით, დამატებითი ხარჯების გარეშე! სამუდამოდ! დიახ, ეს მოიცავს მრავალ მომხმარებელს ერთ ანგარიშზე მოგვიანებით. თუ გსურთ Documenso თქვენი საწარმოსთვის, სიამოვნებით განვიხილავთ თქვენს საჭიროებებს."
+msgstr "შეგიძლიათ თვითონ უმასპინძლოთ SignDoc-ს უფასოდ ან გამოიყენოთ ჩვენი მზა ჰოსტინგის ვერსია. ჰოსტინგის ვერსია მოდის დამატებითი მხარდაჭერით, უმტკივნეულო მასშტაბურობით და მეტით. ადრეულ მომხმარებლებს ექნებათ წვდომა ყველა ფუნქციაზე, რომელსაც ჩვენ წელს ვქმნით, დამატებითი ხარჯების გარეშე! სამუდამოდ! დიახ, ეს მოიცავს მრავალ მომხმარებელს ერთ ანგარიშზე მოგვიანებით. თუ გსურთ SignDoc თქვენი საწარმოსთვის, სიამოვნებით განვიხილავთ თქვენს საჭიროებებს."
 
 #: apps/marketing/src/components/(marketing)/carousel.tsx:272
 msgid "Your browser does not support the video tag."

@@ -36,11 +36,11 @@ msgstr "{0} invited you to {recipientActionVerb} a document"
 
 #: packages/email/templates/team-join.tsx:55
 msgid "{0} joined the team {teamName} on Documenso"
-msgstr "{0} joined the team {teamName} on Documenso"
+msgstr "{0} joined the team {teamName} on SignDoc"
 
 #: packages/email/templates/team-leave.tsx:55
 msgid "{0} left the team {teamName} on Documenso"
-msgstr "{0} left the team {teamName} on Documenso"
+msgstr "{0} left the team {teamName} on SignDoc"
 
 #: packages/ui/primitives/data-table-pagination.tsx:30
 msgid "{0} of {1} row(s) selected."
@@ -279,11 +279,11 @@ msgstr "A recipient was updated"
 
 #: packages/lib/server-only/team/create-team-email-verification.ts:142
 msgid "A request to use your email has been initiated by {teamName} on Documenso"
-msgstr "A request to use your email has been initiated by {teamName} on Documenso"
+msgstr "A request to use your email has been initiated by {teamName} on SignDoc"
 
 #: packages/email/templates/team-join.tsx:29
 msgid "A team member has joined a team on Documenso"
-msgstr "A team member has joined a team on Documenso"
+msgstr "A team member has joined a team on SignDoc"
 
 #: packages/lib/jobs/definitions/emails/send-team-member-left-email.ts:79
 msgid "A team member has left {0}"
@@ -291,7 +291,7 @@ msgstr "A team member has left {0}"
 
 #: packages/email/templates/team-leave.tsx:29
 msgid "A team member has left a team on Documenso"
-msgstr "A team member has left a team on Documenso"
+msgstr "A team member has left a team on SignDoc"
 
 #: packages/email/templates/team-delete.tsx:27
 #: packages/email/templates/team-delete.tsx:31
@@ -830,7 +830,7 @@ msgstr "Invalid email address"
 
 #: packages/email/templates/team-invite.tsx:55
 msgid "Join {teamName} on Documenso"
-msgstr "Join {teamName} on Documenso"
+msgstr "Join {teamName} on SignDoc"
 
 #: packages/ui/primitives/document-flow/field-items-advanced-settings/number-field.tsx:67
 #: packages/ui/primitives/document-flow/field-items-advanced-settings/number-field.tsx:72
@@ -1238,7 +1238,7 @@ msgstr "Team email removed"
 
 #: packages/email/templates/team-email-removed.tsx:27
 msgid "Team email removed for {teamName} on Documenso"
-msgstr "Team email removed for {teamName} on Documenso"
+msgstr "Team email removed for {teamName} on SignDoc"
 
 #: packages/ui/primitives/template-flow/add-template-settings.tsx:133
 msgid "Template title"
@@ -1340,7 +1340,7 @@ msgstr "This document is password protected. Please enter the password to view t
 
 #: packages/email/template-components/template-footer.tsx:14
 msgid "This document was sent using <0>Documenso.</0>"
-msgstr "This document was sent using <0>Documenso.</0>"
+msgstr "This document was sent using <0>SignDoc.</0>"
 
 #: packages/ui/primitives/template-flow/add-template-placeholder-recipients.tsx:573
 msgid "This field cannot be modified or deleted. When you share this template's direct link or add it to your public profile, anyone who accesses it can input their name and email, and fill in the fields assigned to them."
@@ -1448,7 +1448,7 @@ msgstr "We've changed your password as you asked. You can now sign in with your 
 
 #: packages/email/template-components/template-confirmation-email.tsx:24
 msgid "Welcome to Documenso!"
-msgstr "Welcome to Documenso!"
+msgstr "Welcome to SignDoc!"
 
 #: packages/lib/utils/document-audit-logs.ts:258
 msgid "You"
@@ -1476,7 +1476,7 @@ msgstr "You don't need to sign it anymore."
 
 #: packages/lib/server-only/team/create-team-member-invites.ts:168
 msgid "You have been invited to join {0} on Documenso"
-msgstr "You have been invited to join {0} on Documenso"
+msgstr "You have been invited to join {0} on SignDoc"
 
 #: packages/email/templates/team-invite.tsx:59
 msgid "You have been invited to join the following team"
@@ -1488,7 +1488,7 @@ msgstr "You have been removed from a document"
 
 #: packages/lib/server-only/team/request-team-ownership-transfer.ts:114
 msgid "You have been requested to take ownership of team {0} on Documenso"
-msgstr "You have been requested to take ownership of team {0} on Documenso"
+msgstr "You have been requested to take ownership of team {0} on SignDoc"
 
 #: packages/lib/jobs/definitions/emails/send-signing-email.ts:102
 #: packages/lib/server-only/document/resend-document.tsx:113

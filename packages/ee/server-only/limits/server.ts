@@ -54,8 +54,8 @@ const handleUserLimits = async ({ email }: HandleUserLimitsOptions) => {
     throw new Error(ERROR_CODES.USER_FETCH_FAILED);
   }
 
-  const quota = structuredClone(FREE_PLAN_LIMITS);
-  const remaining = structuredClone(FREE_PLAN_LIMITS);
+  let quota = structuredClone(FREE_PLAN_LIMITS);
+  let remaining = structuredClone(FREE_PLAN_LIMITS);
 
   const activeSubscriptions = user.Subscription.filter(
     ({ status }) => status === SubscriptionStatus.ACTIVE,
@@ -78,28 +78,28 @@ const handleUserLimits = async ({ email }: HandleUserLimitsOptions) => {
     // Use the subscription with the highest quota.
     // if (currentQuota.documents > quota.documents && currentQuota.recipients > quota.recipients) {
     if (subscription.type === SubscriptionType.ENTERPRISE) {
-      const quota = structuredClone(SELFHOSTED_PLAN_LIMITS);
-      const remaining = structuredClone(SELFHOSTED_PLAN_LIMITS);
-      return {
-        quota,
-        remaining,
-      };
+      quota = structuredClone(SELFHOSTED_PLAN_LIMITS);
+      remaining = structuredClone(SELFHOSTED_PLAN_LIMITS);
+      // return {
+      //   quota,
+      //   remaining,
+      // };
     }
     if (subscription.type === SubscriptionType.BASIC) {
-      const quota = structuredClone(BASIC_PLAN_LIMITS);
-      const remaining = structuredClone(BASIC_PLAN_LIMITS);
-      return {
-        quota,
-        remaining,
-      };
+      quota = structuredClone(BASIC_PLAN_LIMITS);
+      remaining = structuredClone(BASIC_PLAN_LIMITS);
+      // return {
+      //   quota,
+      //   remaining,
+      // };
     }
     if (subscription.type === SubscriptionType.PROFESSIONAL) {
-      const quota = structuredClone(PROFESSIONAL_PLAN_LIMITS);
-      const remaining = structuredClone(PROFESSIONAL_PLAN_LIMITS);
-      return {
-        quota,
-        remaining,
-      };
+      quota = structuredClone(PROFESSIONAL_PLAN_LIMITS);
+      remaining = structuredClone(PROFESSIONAL_PLAN_LIMITS);
+      // return {
+      //   quota,
+      //   remaining,
+      // };
     }
 
     // }
@@ -136,10 +136,6 @@ const handleUserLimits = async ({ email }: HandleUserLimitsOptions) => {
     prisma.template.count({
       where: {
         userId: user.id,
-        teamId: null,
-        directLink: {
-          isNot: null,
-        },
       },
     }),
   ]);

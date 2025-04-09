@@ -9,6 +9,7 @@ import { Copy, Edit, MoreHorizontal, MoveRight, Share2Icon, Trash2 } from 'lucid
 import { useSession } from 'next-auth/react';
 
 import type { Recipient, Template, TemplateDirectLink } from '@documenso/prisma/client';
+import { trpc } from '@documenso/trpc/react';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -42,6 +43,7 @@ export const DataTableActionDropdown = ({
   const [isTemplateDirectLinkDialogOpen, setTemplateDirectLinkDialogOpen] = useState(false);
   const [isDuplicateDialogOpen, setDuplicateDialogOpen] = useState(false);
   const [isMoveDialogOpen, setMoveDialogOpen] = useState(false);
+  const { data: haveDirectLinkSubscription } = trpc.profile.canUserHaveTeams.useQuery();
 
   if (!session) {
     return null;
@@ -74,10 +76,12 @@ export const DataTableActionDropdown = ({
           <Trans>Duplicate</Trans>
         </DropdownMenuItem>
 
-        <DropdownMenuItem onClick={() => setTemplateDirectLinkDialogOpen(true)}>
-          <Share2Icon className="mr-2 h-4 w-4" />
-          <Trans>Direct link</Trans>
-        </DropdownMenuItem>
+        {haveDirectLinkSubscription && (
+          <DropdownMenuItem onClick={() => setTemplateDirectLinkDialogOpen(true)}>
+            <Share2Icon className="mr-2 h-4 w-4" />
+            <Trans>Direct link</Trans>
+          </DropdownMenuItem>
+        )}
 
         {!teamId && (
           <DropdownMenuItem onClick={() => setMoveDialogOpen(true)}>

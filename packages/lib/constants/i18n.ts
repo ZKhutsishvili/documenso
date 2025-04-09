@@ -1,6 +1,6 @@
 import { z } from 'zod';
 
-export const SUPPORTED_LANGUAGE_CODES = ['de', 'en', 'fr', 'es', 'ka'] as const;
+export const SUPPORTED_LANGUAGE_CODES = ['de', 'en', 'fr', 'es', 'ka', 'ru'] as const;
 
 export const ZSupportedLanguageCodeSchema = z.enum(SUPPORTED_LANGUAGE_CODES).catch('ka');
 
@@ -49,6 +49,10 @@ export const SUPPORTED_LANGUAGES: Record<string, SupportedLanguage> = {
   ka: {
     full: 'Georgian',
     short: 'ka',
+  },
+  ru: {
+    full: 'Russian',
+    short: 'ru',
   },
 } satisfies Record<SupportedLanguageCodes, SupportedLanguage>;
 
